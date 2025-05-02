@@ -1,0 +1,46 @@
+characters={
+#	FSO_WenHao = {
+#		name = FSO_WenHao
+#		portraits={
+#			civilian={
+#				large="gfx/leaders/Gregor Strasser.dds"
+#			}
+#		}
+#		country_leader={
+#			ideology=JiaSuZHuYi_c
+#			traits={ dictator }
+#			expire="9999.1.1.1"
+#			id=-1
+#		}
+#	}
+
+	FSO_Gabriele_DAnnunzio_1 = {
+		name = FSO_Gabriele_DAnnunzio
+		portraits={
+			civilian={
+				large="gfx/leaders/邓南遮.dds"
+			}
+		}
+		country_leader={
+			ideology=FaXiSiZHuYi_c
+			traits={ great_war_hero }
+			expire="1938.3.1.1"
+			id=-1
+		}
+	}
+
+	FSO_Gabriele_DAnnunzio_2 = {
+		name = FSO_Gabriele_DAnnunzio
+		portraits={
+			civilian={
+				large="gfx/leaders/邓南遮.dds"
+			}
+		}
+		country_leader={
+			ideology=JiaZHangZHi_c
+			traits={ great_war_hero }
+			expire="1938.3.1.1"
+			id=-1
+		}
+	}
+}

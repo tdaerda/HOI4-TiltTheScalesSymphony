@@ -1,0 +1,182 @@
+characters={
+#共产党
+	GER_Ernst_Johannes_Fritz_Thalmann={
+		name=GER_Ernst_Johannes_Fritz_Thalmann
+		portraits={
+			civilian={
+				large="gfx/leaders/台尔曼.dds"
+			}
+		}
+		country_leader={
+			ideology=MaKeSi_LieNingZHuYi_c
+			traits={  }
+			expire="9999.01.01.1"
+			id=-1
+		}
+	}
+	GER_Rosa_Luxemburg={
+		name=GER_Rosa_Luxemburg
+		portraits={
+			civilian={
+				large="gfx/leaders/卢森堡.dds"
+			}
+		}
+		country_leader={
+			ideology=GuongTuanZHuYi_c
+			traits={  }
+			expire="9999.01.01.1"
+			id=-1
+		}
+	}
+#纳粹党
+	GER_otto_Strasser = {
+		name = FGE_otto_Strasser
+		portraits={
+			civilian={
+				large="gfx/leaders/小斯特拉瑟.dds"
+			}
+		}
+		country_leader={
+			ideology=GuiZuBaoSHouZHuYi_c
+			traits={ dictator }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	GER_Gregor_Strasser = {
+		name = FGE_Gregor_Strasser
+		portraits={
+			civilian={
+				large="gfx/leaders/Gregor Strasser.dds"
+			}
+		}
+		country_leader={
+			ideology=SiTeLaSeZHuYi_c
+			traits={ dictator }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	GER_Aldert_Speer={
+		name=FGE_Aldert_Speer
+		portraits={
+			civilian={
+				large="gfx/leaders/施佩尔.dds"
+			}
+		}
+		country_leader={
+			ideology=FaXiSiZHuYi_c
+			traits={ dictator }
+			expire="1981.9.1.1"
+			id=-1
+		}
+	}
+
+	GER_adolf_hitler={
+		name=FGE_adolf_hitler
+		portraits={
+			civilian={
+				large="gfx/leaders/希特勒.dds"
+			}
+		}
+		country_leader={
+			ideology=MinZuSHeHuiZHuYi_c
+			traits={
+				dictator
+				great_war_hero
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	GER_Heinrich_Himmler={
+		name=FGE_Heinrich_Himmler
+		portraits={
+			civilian={
+				large="gfx/leaders/希姆莱.dds"
+			}
+		}
+		country_leader={
+			ideology=BoGenDiTiZHi_c
+			traits={ dictator }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+#总统
+	GER_Paul_von_Hindenburg={
+		name=GER_Paul_von_Hindenburg
+		portraits={
+			civilian={
+				large="gfx/leaders/兴登堡.dds"
+			}
+		}
+		country_leader={
+			ideology=JiaZHangZHi_c
+			traits={ dictator }
+			expire="1935.2.2.1"
+			id=-1
+		}
+	}
+
+
+	GER_Reichstag={
+		name=GER_Reichstag
+		portraits={
+			civilian={
+				large="gfx/leaders/帝国议会.dds"
+			}
+		}
+		country_leader={
+			ideology=JiaZHangZHi_c
+			traits={ }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+#政治联盟
+#	GER_Gustav_Stresemann={
+#		name=GER_Gustav_Stresemann
+#		portraits={
+#			civilian={
+#				large="gfx/leaders/斯特雷泽曼.dds"
+#			}
+#		}
+#		country_leader={
+#			ideology=GuDianZiYouZHuYi_c
+#			traits={ smooth_talking_charmer }
+#			expire="9999.01.01.1"
+#			id=-1
+#		}
+#	}
+#	GER_Hjalmar_Schacht={
+#		name=GER_Hjalmar_Schacht
+#		portraits={
+#			civilian={
+#				small="gfx/interface/ideas/沙赫特.png"
+#				large="gfx/leaders/沙赫特.dds"
+#			}
+#		}
+#		country_leader={
+#			ideology=SHeHuiMinZHuZHuYi_c
+#			traits={ JingJiWuSHi }
+#			expire="9999.01.01.1"
+#			id=-1
+#		}
+#		advisor={
+#			slot = economy_chief 
+#			idea_token = Hjalmar_Schacht
+#			allowed = {
+#			}
+#			available = {
+#			}
+#			traits = {
+#				JingJiWuSHi
+#			}
+#		}
+#	}
+#
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=971
+	name="STATE_971"
+	manpower = 619054
+	state_category = town
+
+	history={
+		owner = PRE
+		victory_points = { 11386 1  }
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRE
+	}
+
+	provinces={
+		266 9327 11386 9372 6375
+	}
+	
+	local_supplies=6.0 
+}

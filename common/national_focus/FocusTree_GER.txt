@@ -1,0 +1,198 @@
+focus_tree = {
+	id = FocusTree_GER
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+
+#初始国策
+
+# # #布局
+
+	focus = {
+		id = GER_the_aging_link #垂垂老矣的纽带
+		icon = GFX_GER_the_aging_link
+		cost = 5
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = GER_marshal_s_office #元帅的办公室
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_the_aging_link #垂垂老矣的纽带
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = GER_iron_cross_shackles #铁十字的枷锁
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_the_aging_link #垂垂老矣的纽带
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = GER_benefit_exchange #利益交换
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_marshal_s_office #元帅的办公室
+		}
+		prerequisite = {
+			focus = GER_iron_cross_shackles #铁十字的枷锁
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = GER_secret_conscription #秘密扩军
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_benefit_exchange #利益交换
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = GER_land_exchange_support #土地交换支持
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_benefit_exchange #利益交换
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = GER_hindenburg_s_letter #兴登堡的手谕
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_secret_conscription #秘密扩军
+		}
+		prerequisite = {
+			focus = GER_land_exchange_support #土地交换支持
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = GER_end_of_an_era #一个时代的终结
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = GER_may_god_bless_the_german_motherland #上帝保佑德意志祖国
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_end_of_an_era #一个时代的终结
+		}
+		x = 10
+		y = 2
+
+	}
+
+# # #国会纵火案分支
+
+	focus = {
+		id = GER_reichstagsbrand #国会纵火案
+		icon = GFX_goal_unknown
+		cost = 5
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = GER_establish_investigation_team #成立调查组
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_reichstagsbrand #国会纵火案
+		}
+		mutually_exclusive = {
+			focus = GER_excessive_things #欺人太甚
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = GER_goring_s_conspiracy #戈林的阴谋
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_establish_investigation_team #成立调查组
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = GER_remove_hitler_from_position #罢免希特勒
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_goring_s_conspiracy #戈林的阴谋
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = GER_excessive_things #欺人太甚
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_reichstagsbrand #国会纵火案
+		}
+		mutually_exclusive = {
+			focus = GER_establish_investigation_team #成立调查组
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = GER_arresting_leftists #逮捕左派
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_excessive_things #欺人太甚
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = GER_ermachtigungsgesetz #授权法案
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_arresting_leftists #逮捕左派
+		}
+		x = 16
+		y = 4
+
+	}
+}

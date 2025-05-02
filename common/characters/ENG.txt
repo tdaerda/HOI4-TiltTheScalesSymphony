@@ -1,0 +1,88 @@
+characters={
+	ENG_NeiGeWeiJi={
+		name=ENG_NeiGeWeiJi
+		portraits={
+			civilian={
+				large="gfx/leaders/内阁危机.dds"
+			}
+		}
+		country_leader={
+			ideology=JiaZHangZHi_c
+			traits={
+				cabinet_crisis
+			}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	ENG_Stanley_Baldwin={
+		name=ENG_Stanley_Baldwin
+		portraits={
+			civilian={
+				large="gfx/leaders/斯坦利 鲍德温.dds"
+			}
+		}
+		country_leader={
+			ideology=BaoSHouZHuYi_c
+			traits={
+				conservative_grandee
+				rearmer
+			}
+			expire="1947.12.14.1"
+			id=-1
+		}
+	}
+
+	ENG_Winston_Churchill={
+		name=ENG_Winston_Churchill
+		portraits={
+			civilian={
+				large="gfx/leaders/丘吉尔.dds"
+			}
+		}
+		country_leader={
+			ideology=GuiZuBaoSHouZHuYi_c
+			traits={
+				british_bulldog
+			}
+			expire="1965.1.24.1"
+			id=-1
+		}
+	}
+
+	ENG_George_V={
+		name=ENG_George_V
+		portraits={
+			civilian={
+				large="gfx/leaders/乔老五.dds"
+			}
+		}
+		country_leader={
+			ideology=JunZHuZHuYi_c
+			traits={
+				popular_figurehead
+			}
+			expire="1937.1.20.1"
+			id=-1
+		}
+	}
+
+	ENG_Edward_VIII={
+		name=ENG_Edward_VIII
+		portraits={
+			civilian={
+				large="gfx/leaders/爱老八.dds"
+			}
+		}
+		country_leader={
+			ideology=JunZHuZHuYi_c
+			traits={
+				inexperienced_imperialist
+			}
+			expire="1972.5.28.1"
+			id=-1
+		}
+	}
+
+}

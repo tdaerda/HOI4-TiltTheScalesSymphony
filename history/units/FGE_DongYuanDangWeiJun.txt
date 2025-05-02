@@ -1,0 +1,412 @@
+﻿division_template = {
+#编制
+	name = "党卫军"
+#名称
+
+	division_names_group = FGE_Arm_01
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+#	mot_recon = { x = 0 y = 0 }
+#	engineer = { x = 0 y = 1 }
+	artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+#编制
+	name = "山地师"
+#名称
+
+	division_names_group = FGE_Arm_01
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+	artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+#编制
+	name = "党卫军装甲掷弹兵师"
+#名称
+
+	division_names_group = FGE_MOT_02
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+#编制
+	name = "党卫军骑兵师"
+#名称
+
+	division_names_group = FGE_MOT_02
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+#编制
+	name = "装甲师"
+#名称
+
+	division_names_group = FGE_MOT_02
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		medium_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor= { x = 0 y = 2 }
+		
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {
+#部队
+	division = {
+#部队
+		name = "武装党卫军第Ⅰ“阿道夫·希特勒警卫旗队”装甲师"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "装甲师"
+#编制
+		start_experience_factor = 0.2
+#经验
+
+	}
+
+	division = {
+#部队
+		name = "武装党卫军第Ⅱ“帝国”装甲掷弹兵师"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "党卫军装甲掷弹兵师"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装党卫军第Ⅲ“骷髅”装甲掷弹兵师"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "党卫军装甲掷弹兵师"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装党卫军第Ⅳ“警察”骑兵师"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "党卫军骑兵师"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装党卫军第Ⅴ队“维京”装甲掷弹兵师"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "党卫军装甲掷弹兵师"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装党卫军第Ⅵ“北方”山地师"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "山地师"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装党卫军第Ⅶ“欧根亲王”志愿山地师"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "山地师"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装党卫军第Ⅷ“弗洛里安·盖伊”骑兵师"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "党卫军骑兵师"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装党卫军第Ⅸ“霍芬斯陶芬”装甲掷弹兵师"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "党卫军装甲掷弹兵师"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装党卫军第Ⅹ“弗洛伦堡”骑兵师"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "党卫军骑兵师"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装党卫军第Ⅺ“北欧”骑兵师"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "党卫军骑兵师"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装党卫军第Ⅻ“希特勒青年”骑兵师"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "党卫军骑兵师"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装党卫军第ⅩⅢ“圣刀”武装山地师"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "山地师"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+#	division = {
+##部队
+#		name = "武装党卫军第ⅩⅣ“加利西亚”武装掷弹兵师"
+##名称
+#		location = 692
+##位置 ###ps：要写地块
+#		division_template = "党卫军"
+##编制
+#		start_experience_factor = 0.2
+##经验
+#	}
+#
+#	division = {
+##部队
+#		name = "武装党卫军第ⅩⅤ武装掷弹兵师"
+##名称
+#		location = 692
+##位置 ###ps：要写地块
+#		division_template = "党卫军"
+##编制
+#		start_experience_factor = 0.2
+##经验
+#	}
+#
+#	division = {
+##部队
+#		name = "武装党卫军第ⅩⅥ“党卫队全国领袖”装甲掷弹兵师"
+##名称
+#		location = 692
+##位置 ###ps：要写地块
+#		division_template = "党卫军装甲掷弹兵师"
+##编制
+#		start_experience_factor = 0.2
+##经验
+#	}
+#
+#	division = {
+##部队
+#		name = "武装党卫军第ⅩⅦ“古兹·冯·伯利辛根”装甲掷弹兵师"
+##名称
+#		location = 692
+##位置 ###ps：要写地块
+#		division_template = "装甲掷弹兵师"
+##编制
+#		start_experience_factor = 0.2
+##经验
+#	}
+#
+#	division = {
+##部队
+#		name = "武装党卫军第ⅩⅧ“霍斯特·维瑟尔”志愿装甲掷弹兵师"
+##名称
+#		location = 692
+##位置 ###ps：要写地块
+#		division_template = "装甲掷弹兵师"
+##编制
+#		start_experience_factor = 0.2
+##经验
+#	}
+#
+#	division = {
+##部队
+#		name = "武装党卫军第ⅩⅨ“拉脱维亚”武装掷弹兵师"
+##名称
+#		location = 692
+##位置 ###ps：要写地块
+#		division_template = "党卫军"
+##编制
+#		start_experience_factor = 0.2
+##经验
+#	}
+#
+#	division = {
+##部队
+#		name = "武装党卫军第ⅩⅩ“爱沙尼亚”武装掷弹兵师"
+##名称
+#		location = 692
+##位置 ###ps：要写地块
+#		division_template = "党卫军"
+##编制
+#		start_experience_factor = 0.2
+##经验
+#	}
+#
+#	division = {
+##部队
+#		name = "武装党卫军第ⅩⅪ“斯坎德培”武装掷弹兵师"
+##名称
+#		location = 692
+##位置 ###ps：要写地块
+#		division_template = "党卫军"
+##编制
+#		start_experience_factor = 0.2
+##经验
+#	}
+#
+#	division = {
+##部队
+#		name = "武装党卫军第ⅩⅫ“玛丽亚·特雷西亚”志愿骑兵师"
+##名称
+#		location = 692
+##位置 ###ps：要写地块
+#		division_template = "党卫军骑兵师"
+##编制
+#		start_experience_factor = 0.2
+##经验
+#	}
+#
+#	division = {
+##部队
+#		name = "武装党卫军第ⅩⅩⅢ“尼德兰”装甲掷弹兵师"
+##名称
+#		location = 692
+##位置 ###ps：要写地块
+#		division_template = "装甲掷弹兵师"
+##编制
+#		start_experience_factor = 0.2
+##经验
+#	}
+#
+#	division = {
+##部队
+#		name = "武装党卫军第ⅩⅩⅢ“卡斯特猎手”武装山地师"
+##名称
+#		location = 692
+##位置 ###ps：要写地块
+#		division_template = "山地师"
+##编制
+#		start_experience_factor = 0.2
+##经验
+#	}
+}

@@ -1,0 +1,615 @@
+ideas = {
+	country = {
+		tss_ENG_SuGeLanFanDuiPai = {	#苏格兰反对派
+			picture = SuGeLanFanDuiPai
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_core_defence_factor = -0.05
+				mobilization_speed = -0.1
+				consumer_goods_factor = 0.05
+				conscription = -0.01 #-0.3
+				stability_factor = -0.2
+				stability_weekly = -0.001
+			}
+			targeted_modifier = {
+
+			}
+		}
+
+		tss_ENG_RiLuoDiGuo = {	#日落帝国
+			picture = RiLuoDiGuo
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.03
+				army_org_factor = -0.05
+				Army_org_regain = -0.05
+				naval_critical_score_chance_factor = -0.05
+			}
+			targeted_modifier = {
+
+			}
+		}
+
+		tss_ENG_DengSHanZHiRen = {	#登山之人
+			picture = DengSHanZHiRen
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_factor = 0.1
+			}
+			targeted_modifier = {
+
+			}
+		}
+
+		tss_ENG_DaXiaoTiao_1 = {	#大萧条
+			picture = DaXiaoTiao
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.2
+				min_export = -0.25
+				weekly_manpower = -500
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_DaXiaoTiao_2 = {	#大萧条
+			picture = DaXiaoTiao
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.25
+				production_speed_buildings_factor = -0.2
+				min_export = -0.25
+				weekly_manpower = -500
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_SiYouHua = {	#私有化
+			picture = SiYouHua
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_JingJiWeiYuanHui = {	#经济委员会
+			picture = JingJiWeiYuanHui
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_ToZiDianLiFaZHan = {	#投资电力发展
+			picture = ToZiDianLiFaZHan
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_TanHeWeiJi = {	#弹劾危机
+			picture = ToZiDianLiFaZHan
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_cost = 0.25
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_TanHeWeiJiDeYvBo = {	#弹劾危机的余波
+			picture = ToZiDianLiFaZHan
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_cost = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_JiuSHiJieDeHanWeiZHe = {	#旧世界的捍卫者
+			picture = ToZiDianLiFaZHan
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_attack_against_major_factor = 0.1
+
+				army_org_factor = 0.1
+
+				mobilization_speed = 0.05
+			}
+			targeted_modifier = {
+				tag = GER
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+		tss_ENG_CHongZHengJunBei_1 = {	#重整军备
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_CHongZHengJunBei_2 = {	#重整军备
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_BeiYingGuoRenPaoQi = {	#被英国人抛弃
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				war_support_factor = -0.1
+
+				army_core_attack_factor = -0.1
+				army_core_defence_factor = -0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_FanFaXiSiDeWeiDaZHanZHeng = {	#反法西斯的伟大战争
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+			}
+			targeted_modifier = {
+				tag = GER
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+			targeted_modifier = {
+				tag = CSA
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+#		tss_ENG_hut_1 = {	#hut 1
+#			picture = CHongZHengJunBei
+#
+#			allowed = {
+#			}
+#
+#			allowed_civil_war = {
+#			}
+#
+#			modifier = {
+#				research_speed_factor = 0.1
+#				recon_factor = 0.1
+#				agency_upgrade_time = -0.1
+#			}
+#			targeted_modifier = {
+#			}
+#		}
+#
+#		tss_ENG_hut_2 = {	#hut 2
+#			picture = CHongZHengJunBei
+#
+#			allowed = {
+#			}
+#
+#			allowed_civil_war = {
+#			}
+#
+#			modifier = {
+#				army_org_factor = 0.1
+#				supply_combat_penalties_on_core_factor = -0.1
+#				no_supply_grace = 24
+#			}
+#			targeted_modifier = {
+#			}
+#		}
+#
+#		tss_ENG_hut_3 = {	#hut 3
+#			picture = CHongZHengJunBei
+#
+#			allowed = {
+#			}
+#
+#			allowed_civil_war = {
+#			}
+#
+#			modifier = {
+#				intel_network_gain_factor = 0.3
+#			}
+#			targeted_modifier = {
+#			}
+#		}
+#
+#		tss_ENG_hut_4 = {	#hut 4
+#			picture = CHongZHengJunBei
+#
+#			allowed = {
+#			}
+#
+#			allowed_civil_war = {
+#			}
+#
+#			modifier = {
+#				crypto_strength = 1
+#			}
+#			targeted_modifier = {
+#			}
+#		}
+#
+#		tss_ENG_hut_5 = {	#hut 5
+#			picture = CHongZHengJunBei
+#
+#			allowed = {
+#			}
+#
+#			allowed_civil_war = {
+#			}
+#
+#			modifier = {
+#				decryption_power_factor = 0.1
+#			}
+#			targeted_modifier = {
+#			}
+#		}
+#
+#		tss_ENG_hut_6 = {	#hut 6
+#			picture = CHongZHengJunBei
+#
+#			allowed = {
+#			}
+#
+#			allowed_civil_war = {
+#			}
+#
+#			modifier = {
+#				air_cas_efficiency = 0.1
+#			}
+#			targeted_modifier = {
+#			}
+#		}
+#
+#		tss_ENG_hut_7 = {	#hut 7
+#			picture = CHongZHengJunBei
+#
+#			allowed = {
+#			}
+#
+#			allowed_civil_war = {
+#			}
+#
+#			modifier = {
+#			}
+#			targeted_modifier = {
+#				tag = CSA
+#				army_attack_factor = 0.1
+#				army_defence_factor = 0.1
+#			}
+#		}
+#
+#		tss_ENG_hut_8 = {	#hut 8
+#			picture = CHongZHengJunBei
+#
+#			allowed = {
+#			}
+#
+#			allowed_civil_war = {
+#			}
+#
+#			modifier = {
+#				decryption_power_factor = 0.1
+#				convoy_escort_efficiency = 0.1
+#			}
+#			targeted_modifier = {
+#			}
+#		}
+
+		tss_ENG_GongGuBuLieDianDiGuo = {	#巩固不列颠帝国
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_LiMingXingDong = {	#“黎明”行动
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+
+				naval_invasion_penalty = -0.5
+				invasion_preparation = -0.3
+				no_supply_grace = 120
+
+				army_attack_factor = 0.25
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_MeiZHou = {	#美洲
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = CSA
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+		tss_ENG_OuZHou = {	#欧洲
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = GER
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+		tss_ENG_KuangRenXingDong = {	#“狂人”行动
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = SCO
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+		tss_ENG_MeiNiuXeiDing = {	#煤牛协定
+			picture = MeiNiuXeiDing
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				supply_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_YingAiMaoYiTiaoYue = {	#英爱贸易条约
+			picture = YingAiMaoYiTiaoYue
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = IRE
+				trade_opinion_factor = 0.1
+				min_export = 0.1
+			}
+		}
+
+		tss_ENG_TianYouGuoWang = {	#天佑国王
+			picture = TianYouGuoWang
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_weekly = 0.001
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_ZHengJiuLuenDuen = {	#拯救伦敦
+			picture = ZHengJiuLuenDuen
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_weekly = 0.001
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ENG_PuTaoJiuXingDong = {	#葡萄酒行动
+			picture = PuTaoJiuXingDong
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				invasion_preparation = -0.15
+			}
+			targeted_modifier = {
+				tag = FRA
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+			}
+		}
+
+		tss_ENG_NuoManDiDeYiCHan = {	#诺曼底的遗产
+			picture = NuoManDiDeYiCHan
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				invasion_preparation = -0.15
+				naval_invasion_penalty = -0.15
+
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+			}
+			targeted_modifier = {
+			}
+		}
+	}
+}

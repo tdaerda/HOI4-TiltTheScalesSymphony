@@ -1,0 +1,1683 @@
+﻿l_simp_chinese:
+
+ #注释
+ #C=测试
+ #F=放弃
+ #R=KR（划掉）新
+
+
+
+
+
+ #地区
+ STATE_195: "圣彼得堡"
+ STATE_195_SOV: "列宁格勒"
+ STATE_970: "萨尔"
+ STATE_971: "马祖伦"
+ STATE_972: "外卢森堡"
+ #STATE_973: "下阿尔萨斯"
+ STATE_973: "南锡"
+ STATE_974: "莫雷斯内特"
+ STATE_975: "威廉港"
+ STATE_976: "不来梅"
+ STATE_977: "下布科维纳"
+ STATE_978: "耶德察" #丘吉尔之嗝
+ STATE_979: "新罗西斯克"
+ STATE_980: "索契"
+ STATE_981: "巴统"
+ STATE_982: "巴登"
+ STATE_983: "苏瓦乌基"
+ #STATE_984: "谢德尔采"
+ #STATE_985: "拉多姆"
+ STATE_984: "塔尔努夫"
+ STATE_985: "小波兰"
+ STATE_986: "摩纳哥"
+ STATE_987: "列支敦士登"
+ STATE_988: "安道尔"
+ STATE_989: "加莱"
+ STATE_990: "北巴勒斯坦"
+ STATE_991: "耶路撒冷"
+ STATE_992: "朱纳格特"
+ STATE_993: "卡拉特"
+ STATE_994: "瓜德尔"
+ STATE_995: "拉斯贝拉"
+ STATE_996: "马克兰"
+ STATE_997: "卡兰"
+ 
+ STATE_5: "埃姆兰"
+ STATE_233: "索契山区"
+ STATE_454: "南巴勒斯坦"
+ STATE_217: "伏尔加格勒"
+ STATE_227: "顿涅茨克"
+ STATE_742: "杜尚别"
+ STATE_29: "诺尔"
+ STATE_561: "外阿穆尔"
+ STATE_714: "阿穆尔"
+ STATE_761: "阿尔巴津"
+ STATE_86: "西大波兰"
+ STATE_87: "东大波兰"
+ STATE_875: "阿克塞钦"
+ 
+ #城市
+ 
+ VICTORY_POINTS_3151: "圣彼得堡"
+ VICTORY_POINTS_3151_SOV: "列宁格勒"
+ 
+ VICTORY_POINTS_7405: "阿拉什卡拉"
+ 
+ VICTORY_POINTS_3529: "伏尔加格勒"
+ 
+ VICTORY_POINTS_6474: "顿涅茨克"
+ 
+ VICTORY_POINTS_1384: "杜尚别"
+ 
+ VICTORY_POINTS_5042: "阿里"
+ 
+ VICTORY_POINTS_12754: "查谟"
+ 
+ VICTORY_POINTS_1179: "贝拉"
+ 
+ VICTORY_POINTS_12774: "凯奇"
+ 
+ #战略地区
+ 
+ STRATEGICREGION_20: "奥克西塔尼亚"
+ STRATEGICREGION_267: "希瓦"
+ STRATEGICREGION_269: "布哈拉"
+ STRATEGICREGION_248: "两广"
+
+ #国家
+ 
+ RFE: "俄罗斯"
+ #通用
+ RFE_DEF: "俄罗斯"
+ #通用
+ RFE_ADJ: "俄罗斯"
+ #通用
+ RFE_fascism: "神圣俄罗斯雅利安国"
+ #法西斯
+ RFE_fascism_DEF: "神圣俄罗斯雅利安国"
+ #法西斯
+ RFE_fascism_ADJ: "俄罗斯"
+ #法西斯
+ RFE_democratic: "俄罗斯民主联邦共和国"
+ #民主
+ RFE_democratic_DEF: "俄罗斯民主联邦共和国"
+ #民主
+ RFE_democratic_ADJ: "俄罗斯"
+ #民主
+ 
+ FER_fascism: "爱斯基摩民族国"
+ #法西斯
+ FER_fascism_DEF: "爱斯基摩民族国"
+ #法西斯
+ FER_fascism_ADJ: "爱斯基摩"
+ #法西斯
+ FER_democratic: "远东共和国"
+ #民主
+ FER_democratic_DEF: "远东共和国"
+ #民主
+ FER_democratic_ADJ: "远东"
+ #民主
+ FER_communism: "东西伯利亚人民国"
+ #共产
+ FER_communism_DEF: "东西伯利亚人民国"
+ #共产
+ FER_communism_ADJ: "东西伯利亚"
+ #共产
+ FER_neutrality: "沙皇国"
+ #中立
+ FER_neutrality_DEF: "沙皇国"
+ #中立
+ FER_neutrality_ADJ: "沙皇国"
+ #中立
+ FER_GuongTuanZHuYi: "远东自由苏维埃"
+ #萨布林
+ FER_GuongTuanZHuYi_DEF: "远东自由苏维埃"
+ #萨布林
+ FER_GuongTuanZHuYi_ADJ: "布里亚特"
+ #萨布林
+ 
+ FER_SOV_communism_subject: "远东苏维埃共和国"
+ FER_SOV_communism_subject_DEF: "远东苏维埃共和国"
+ FER_SOV_communism_subject_ADJ: "远东"
+ FER_JAP_neutrality_subject: "日属远东保护国"
+ FER_JAP_neutrality_subject_DEF: "日属远东保护国"
+ FER_JAP_neutrality_subject_ADJ: "日属西伯利亚"
+ FER_JAP_fascism_subject: "东西伯利亚方面军"
+ FER_JAP_fascism_subject_DEF: "东西伯利亚方面军"
+ FER_JAP_fascism_subject_ADJ: "东西伯利亚"
+ 
+ SOV: "西伯利亚"
+ SOV_DEF: "西伯利亚"
+ SOV_ADJ: "西伯利亚"
+ 
+ PMN: "阿特图特噶安"
+ PMN_DEF: "阿特图特噶安"
+ PMN_ADJ: "阿特图特"
+ 
+ RBD: "莱茵联邦"
+ #通用
+ RBD_DEF: "莱茵联邦"
+ #通用
+ RBD_ADJ: "莱茵"
+ #通用
+ 
+ #民族精神
+ 
+ # # #黑德
+ 
+ bw_FGE_JvDaDeHongSeWeiXie: "巨大的红色威胁"
+ bw_FGE_JvDaDeHongSeWeiXie_desc: "“在西伯利亚的苦寒之地，托洛斯基和他的同僚们正在研究名为布尔什维克的病毒，德国是第一个被感染的，而我们的元首就是第一个抵抗这股力量的人。”——德国宣传部"
+ 
+ bw_FGE_PoSuiDeJingJi: "破碎的经济"
+ #bw_FGE_PoSuiDeJingJi_desc: "在德国内战中没人在乎经济，他们通过搜刮劫掠的方式保障自己的生存。但内战结束了，这种方式的后遗症展现了出来，各地出现的经济被分割，企业全部逃走，德国的经济已经完蛋。"
+ bw_FGE_PoSuiDeJingJi_desc: "在战火中经济被轰的粉碎，斯特雷泽曼的遗产彻底消失。"
+ 
+ bw_FGE_HerGor_ZHaiQvan: "菲格债券"
+ bw_FGE_HerGor_ZHaiQvan_desc: "“菲格（HerGör）这个词是赫尔曼和戈林的前三个字母组合起来的组合词，代表菲格债券的提出者赫尔曼·戈林。"
+ 
+ ########################################
+ # 废弃 ## 废弃 ## 废弃 ## 废弃 ## 废弃 #
+ ########################################
+ 
+ bw_FGE_SHengCunKongJian: "生存空间"
+ bw_FGE_SHengCunKongJian_desc: " "
+ 
+ bw_FGE_DeYiZHiMinZuDeSHengCunKongJian: "德意志民族的生存空间"
+ bw_FGE_DeYiZHiMinZuDeSHengCunKongJian_desc: " "
+ 
+ bw_FGE_HaiSHiXingDong: "海狮行动"
+ bw_FGE_HaiSHiXingDong_desc: " "
+ 
+ bw_FGE_YingFaFanDui: "英法反对"
+ bw_FGE_YingFaFanDui_desc: " "
+ 
+ bw_FGE_FaErSaiTiXi: "法尔赛体系"
+ bw_FGE_FaErSaiTiXi_desc: " "
+ FaErSaiTiXi_tt: "§R在宣战法尔赛体系的国家后其余法尔赛体系国家将向你宣战。§!"
+ 
+ bw_FGE_RiNeiWaTiaoYue_1: "日内瓦条约"
+ bw_FGE_RiNeiWaTiaoYue_1_desc: " "
+ 
+ bw_FGE_RiNeiWaTiaoYue_2: "日内瓦条约"
+ bw_FGE_RiNeiWaTiaoYue_2_desc: " "
+ 
+ bw_FGE_RiNeiWaTiaoYue_3: "日内瓦条约"
+ bw_FGE_RiNeiWaTiaoYue_3_desc: " "
+ 
+ bw_FGE_SHuiJingZHiYe: "水晶之夜"
+ bw_FGE_SHuiJingZHiYe_desc: " "
+ 
+ bw_FGE_TongYiDeDeYiZH: "统一的德意志"
+ bw_FGE_TongYiDeDeYiZH_desc: " "
+ 
+ bw_FGE_DaDeYiZHi: "大德意志？"
+ bw_FGE_DaDeYiZHi_desc: " "
+ 
+ bw_FGE_XinZHiXv: "新秩序"
+ bw_FGE_XinZHiXv_desc: " "
+ 
+ bw_FGE_GaiSHiTaiBao: "盖世太保"
+ bw_FGE_GaiSHiTaiBao_desc: " "
+ 
+ bw_FGE_NiuNaiYvMianBao: "牛奶与面包"
+ bw_FGE_NiuNaiYvMianBao_desc: " "
+ 
+ bw_FGE_SiNianJiHua: "四年计划"
+ bw_FGE_SiNianJiHua_desc: " "
+ 
+ # # #爱尔兰
+ 
+ bw_IRE_Celt: "泛凯尔特主义"
+ bw_IRE_Celt_desc: "在独立战争胜利后爱尔兰出现了泛凯尔特主义；既然爱尔兰已经从英格兰的统治下独立，那么为什么不把苏格兰、威尔士、布列塔尼，甚至是中西欧，这些凯尔特人的土地从日耳曼蛮子的手里解放出来。"
+ 
+ bw_IRE_FeiCuiZHiDao: "翡翠之岛"
+ bw_IRE_FeiCuiZHiDao_desc: ""
+ 
+ bw_IRE_YingAiMaoYiZHan_1: "英爱贸易战"
+ bw_IRE_YingAiMaoYiZHan_1_desc: "在独立战争后不列颠一直跟爱尔兰保持敌对关系，他们要求所有英联邦国家不与爱尔兰贸易，我们只能通过偷渡等方式进口必要资源。"
+ 
+ bw_IRE_YingAiMaoYiZHan_2: "英爱贸易战"
+ bw_IRE_YingAiMaoYiZHan_2_desc: "在独立战争后不列颠一直跟爱尔兰保持敌对关系，他们要求所有英联邦国家不与爱尔兰贸易，我们只能通过偷渡等方式进口必要资源。"
+ 
+ bw_IRE_YingGuoToZi: "英国投资"
+ 
+ bw_IRE_CHuSHouMeiNiu: "出售煤牛"
+ 
+ bw_IRE_YingAiMaoYiTiaoYue: "英爱贸易条约"
+ 
+ bw_IRE_BeiFengSuoDeJingJi: "被封锁的经济"
+ 
+ bw_IRE_KongHuangQingXvManYan: "恐慌情绪蔓延"
+ 
+ # # #大不列颠
+ 
+ bw_ENG_SuGeLanFanDuiPai: "苏格兰反对派"
+ bw_ENG_SuGeLanFanDuiPai_desc: "大不列颠本来就是因利益联合起来的脆弱同盟，以前太阳挂起的时候或许可以统一，现在日落了他们就想独立了。"
+ 
+ bw_ENG_RiLuoDiGuo: "日落帝国"
+ bw_ENG_RiLuoDiGuo_desc: "啊~~日不落帝国，我们击败拿破仑建立了庞大的帝国，虽然在遥远的美洲出了点问题，但我们把德意志人给打败了，现在一切安好，对吗？"
+ 
+ bw_ENG_DengSHanZHiRen: "登山之人"
+ bw_ENG_DengSHanZHiRen_desc: "在1924年我们攀登了珠穆朗玛峰，成为了第一个登顶的国家，事实证明大英帝国荣光仍在！"
+ 
+ bw_ENG_DaXiaoTiao_1: "大萧条"
+ bw_ENG_DaXiaoTiao_1_desc: "股市的下架率达到80%，股民从天而降，街上全是失业的人。"
+ 
+ bw_ENG_DaXiaoTiao_2: "大萧条"
+ bw_ENG_DaXiaoTiao_2_desc: "股市的下架率达到80%，股民从天而降，街上全是失业的人。"
+ 
+ bw_ENG_SiYouHua: "私有化"
+ #bw_ENG_SiYouHua_desc: "将国有企业出售换取资金。"
+ 
+ bw_ENG_JingJiWeiYuanHui: "经济委员会"
+ #bw_ENG_JingJiWeiYuanHei_desc: "政府任命一些经济学家组成委员会控制支出和投资。"
+ #bw_ENG_JingJiWeiYuanHui_desc: "政府任命一些经济学家组成委员会协助财政大臣工作。"
+ 
+ bw_ENG_ToZiDianLiFaZHan: "投资电力发展"
+ #bw_ENG_ToZiDianLiFaZHan_desc: "政府出钱保持基础设施的稳定。"
+ 
+ bw_ENG_TanHeWeiJi: "弹劾危机"
+ 
+ bw_ENG_TanHeWeiJiDeYvBo: "弹劾危机的余波"
+ 
+ bw_ENG_JiuSHiJieDeHanWeiZHe: "旧世界的捍卫者"
+ bw_ENG_JiuSHiJieDeHanWeiZHe_desc: "整个欧陆都被长筒靴践踏，现在我们将拯救和捍卫旧世界。"
+ 
+ bw_ENG_CHongZHengJunBei_1: "重整军备"
+ bw_ENG_CHongZHengJunBei_1_desc: "“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
+ bw_ENG_CHongZHengJunBei_2: "重整军备"
+ bw_ENG_CHongZHengJunBei_2_desc: "“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
+ 
+ bw_ENG_BeiYingGuoRenPaoQi: "被英国人抛弃"
+ bw_ENG_BeiYingGuoRenPaoQi_desc: "该死英国老居然将我们抛弃了，埃塞俄比亚和德国的事充分证明了“今天是我们，明天就轮到你们”这句话的正确性，你们竟然还不知道？"
+ 
+ bw_ENG_FanFaXiSiDeWeiDaZHanZHeng: "反法西斯的伟大战争"
+ 
+ bw_ENG_hut_1: "hut 1"
+ bw_ENG_hut_2: "hut 2"
+ bw_ENG_hut_3: "hut 3"
+ bw_ENG_hut_4: "hut 4"
+ bw_ENG_hut_5: "hut 5"
+ bw_ENG_hut_6: "hut 6"
+ bw_ENG_hut_7: "hut 7"
+ bw_ENG_hut_8: "hut 8"
+ 
+ bw_ENG_LiMingXingDong: "“黎明”行动"
+ #bw_ENG_LiMingXingDong_desc: "德国的单兵实力强悍，但兵力不足全靠美国人填线，我们可以通过登陆制造新的战线让德军兵力分散，这将使欧陆脱离黑日的阴影。"
+ bw_ENG_LiMingXingDong_desc: "德国的单兵实力强悍，但兵力不足全靠美国人填线，我们可以通过登陆制造新的战线让德军兵力分散，这是使欧陆脱离黑日的唯一希望。"
+ 
+ bw_ENG_KuangRenXingDong: "“狂人”行动"
+ 
+ bw_ENG_MeiNiuXeiDing: "煤牛协定"
+ 
+ bw_ENG_YingAiMaoYiTiaoYue: "英爱贸易条约"
+ 
+ # # #FGE
+ 
+ #bw_FGE_FenSuiXiTeLe: "粉碎希特勒"
+ #bw_FGE_FenSuiXiTeLe_desc: "希特勒和他的法西斯政权必将毁灭！！！"
+ 
+ bw_FGE_RongKeGuiZu: "容克贵族"
+ bw_FGE_RongKeGuiZu_desc: " "
+ 
+ bw_FGE_XiongDiXiQiang: "兄弟阋墙"
+ bw_FGE_XiongDiXiQiang_desc: " "
+ 
+ bw_FGE_ZiYouJunTuan: "自由军团"
+ bw_FGE_ZiYouJunTuan_desc: "自由军团原本是雇佣兵，但在德国内战以后就因其支持纳粹的政治立场改组为反政府武装。"
+ 
+ bw_FGE_QvanGuoXingJingJiTanHuan: "全国性经济瘫痪"
+ #bw_FGE_QvanGuoXingJingJiTanHuan_desc: "内战和社民党的反对导致经济瘫痪。"
+ bw_FGE_QvanGuoXingJingJiTanHuan_desc: "社民党和容克的反对、未完成的公有化以及巴黎股市的崩盘都进一步引发经济瘫痪。"
+ 
+ bw_FGE_SHeMinDangFanDuiPai: "社民党反对派"
+ bw_FGE_SHeMinDangFanDuiPai_desc: "社民党反对我们的专制统治，他们时刻都有可能脱离国家统治。"
+ 
+ #bw_FGE_FaErSaiTiaoYueDeYvBo: "法尔赛条约的余波"
+ #bw_FGE_FaErSaiTiaoYueDeYvBo_desc: "虽然我们撕毁了法尔赛条约，但军队还受他们影响。"
+ 
+ bw_FGE_DiGuoYiHui: "帝国议会"
+ bw_FGE_DiGuoYiHui_desc: "帝国议会上无休无止的扯皮和争论让我们的行政系统无比低下。"
+ 
+ 
+ # # #奥地利
+ 
+ bw_AUS_Third_Way: "第三条路"
+ 
+ bw_AUS_GongHeGuoDeYiCHan: "共和国的遗产"
+ 
+ # # #沙皇国
+ 
+ bw_FER_WoMenWeiDaDeJunZHuWuSuoBuZHi_WuSuoBuNeng_WuLuenWoMenYongYouSengMo_WuLuenWoMenSHiFouJianKang_SuoYouDeZHeiXieDoGuiGongYvWoMenWeiDsDeJunZHu__Ma: "我们伟大的君主无所不知，无所不能，无论我们拥有什么，无论我们是否健康，所有的这些都归功于我们伟大的君主......吗？"
+ 
+ # # #中国
+ 
+ bw_CHI_YiCuenSHanHeYiCuenXie_SHiWanQingNianSHiWanBing: "一寸山河一寸血，十万青年十万兵"
+ 
+ # # #教宗国
+ 
+ bw_PAP_ALiYaYunDong: "阿利亚运动"
+ 
+ # # #德兰士瓦
+ 
+ bw_SAR_DiSanCiBuErZHanZHeng: "第三次布尔战争"
+ bw_SAR_DiSanCiBuErZHanZHeng_desc: "在第二次布尔战争中我们被吞并，现在我们绝对不会失败！"
+ 
+ bw_SAR_ossewa_brandwag: "奥瑟瓦-布兰德维格"
+ bw_SAR_ossewa_brandwag_desc: "奥瑟瓦-布兰德维格（ossewa brandwag）直译为牛\n车哨兵，其中牛车是为了纪念牛车大迁徙中的“先民”\n（该条只是对于名字的解释）\n\n奥瑟瓦-布兰德维格是一个布尔人民族主义组织，与纳粹党有着密切的联系。该组织要求给予德兰士瓦自主权，在之前组织过大规模游行和恐怖袭击，但在集权政策生效后就沉寂下来......吗？\n\n并没有，在1936年发生在德班的游行就是由它组织的，在沉寂的时间里它在默默发育，建立准军事组织，直到德班的枪响，重建德兰士瓦共和国。"
+ 
+ bw_SAR_BuErMinZuZHuYi: "布尔民族主义"
+ bw_SAR_BuErMinZuZHuYi_desc: "我们永远不会忘记英国人对我们做的一切。"
+ 
+ # # #南非
+ 
+ bw_SAF_ossewa_brandwag: "奥瑟瓦-布兰德维格"
+ bw_SAF_ossewa_brandwag_desc: "奥瑟瓦-布兰德维格（ossewa brandwag）直译为牛\n车哨兵，其中牛车是为了纪念牛车大迁徙中的“先民”\n（该条只是对于名字的解释）\n\n奥瑟瓦-布兰德维格是一个布尔人民族主义组织，与纳粹党有着密切的联系。该组织要求给予德兰士瓦自主权，在之前组织过大规模游行和恐怖袭击，但在集权政策生效后就沉寂下来......吗？"
+ 
+ # # #通用
+ 
+ bw_JiTiZHuYiJingSHen: "集体主义精神"
+ bw_JiTiZHuYiJingSHen_desc: "我们的敌人或许能分裂并征服那些较小的国家，但我们的人民已经团结一致，人人为我，我为人人。"
+ 
+ bw_DaBaGuang: "大罢工"
+ 
+ bw_GuoJiGe: "国际歌"
+ 
+ bw_YvKeXueJiaHeZuo: "与科学家合作"
+ 
+ bw_HuanBuHuoDeSHengCHanZiLiao: "缓步获得生产资料"
+ 
+ bw_DuoQvSHengCHanZiLiao: "夺取生产资料"
+ 
+ bw_HongJun: "红军"
+ 
+ bw_JunDuiYouXian: "军队优先"
+ 
+ bw_BuDuanGeMingLuen: "不断革命论"
+ 
+ bw_NngYJiTiHua: "农业集体化"
+ 
+ bw_YiGuoJianCHengSHeHuiZHuYi: "一国建成社会主义"
+ 
+ bw_CHaoGongYeHua: "超工业化"
+ 
+ bw_GuongTongMingYun: "共同命运"
+ 
+ bw_ZHengZHiWeiYuan: "政治委员"
+ 
+ bw_GongSHe: "公社"
+ 
+ bw_GongRenWeiYuanHui: "工人委员会"
+ 
+ bw_SHiBingWeiYuanHui: "士兵委员会"
+ 
+ bw_ZHiJieMinZHuZHi: "直接民主制"
+ 
+ bw_QueBaoMeiGeRenDoYouGongZuo: "确保每个人都有工作"
+ bw_QueBaoMeiGeRenDoYouGongZuo: "虽然确保每个人都有工作很难，但为了建立乌托邦，这值得。"
+ 
+ bw_FenSuiSiYouZHi: "粉碎私有制"
+ 
+ bw_FenSuiHuoBi: "粉碎货币"
+ bw_WuZHengFu_WuGuoJie: "无政府，无国界"
+ 
+ bw_WanJvGouHuo: "万具篝火"
+ bw_WanJvGouHuo_desc: "在一个黑暗的世界里一具篝火的力量很微弱，那十具、千具、万具呢？现在每个人都是一具篝火，我们将照亮世界。"
+ 
+ # # #法国
+ 
+ bw_FRA_DaXiaoTiao: "大萧条"
+ bw_FRA_DaXiaoTiao_desc: "股市的下架率达到80%，股民从天而降，街上全是失业的人。"
+ 
+ # # #阿巴阿巴
+ 
+ bw_weiduyishu: "维度艺术"
+ bw_weiduyishu_desc: "维度艺术"
+ 
+ bw_diaocha: "调查"
+ bw_diaocha_desc: "调查"
+ 
+ bw_kexuejiachutao: "科学家出逃"
+ bw_kexuejiachutao_desc: "科学家出逃"
+ 
+ bw_BeiBingYangJiHua: "北冰洋计划"
+ bw_BeiBingYangJiHua_desc: "北冰洋计划是一个战争计划"
+ 
+ bw_FaFa: "一个彩蛋"
+ bw_FaFa_desc: "彩蛋之一"
+ 
+ #人
+ 
+ # # #德三
+
+ FGE_Gregor_Strasser: "格雷戈尔·施特拉塞"
+ 
+ FGE_adolf_hitler: "阿道夫·希特勒"
+ 
+ FGE_Heinrich_Himmler: "海因里希·卢伊特波尔德·希姆莱"
+ 
+ Heinrich_Himmler: "海因里希·卢伊特波尔德·希姆莱"
+ 
+ FGE_Reinhard_Heydrich: "莱因哈德·特里斯坦·欧根·海德里希"
+ 
+ FGE_Paul_Joseph_Goebbels: "保罗·约瑟夫·戈培尔"
+ 
+ FGE_otto_Strasser: "奥托·约翰·马克西米利安·施特拉塞"
+ 
+ FGE_Aldert_Speer: "贝特霍尔德·康拉德·赫尔曼·阿尔伯特·施佩尔"
+ 
+ FGE_Hermann_Fegelein: "汉斯·乔治·奥托·赫尔曼·费格莱因"
+ 
+ FGE_Felix_Steiner: "费利克斯·马丁·尤利乌斯·施泰纳"
+ 
+ FGE_Ernst_Rohm:"恩斯特·尤利乌斯·金特·罗姆"
+ 
+ FGE_Hermann_Goring: "赫尔曼·威廉·戈林"
+ 
+ FGE_Hjalmar_Schacht: "亚尔马·贺拉斯·格里莱·沙赫特"
+ 
+ # # #奥地利
+ 
+ AUS_Kurt_Schuschnigg_BW: "库尔特·舒施尼格"
+ 
+ AUS_Karl_von_Habsburg_BW: "卡尔·冯·哈布斯堡-洛林根"
+ 
+ #沙皇国
+ 
+ FER_Nikolay_II: "尼古拉二世·亚历山大洛维奇·诺曼诺夫"
+ 
+ FER_TABI: "谢尔盖·弗拉基米尔洛维奇·塔博里斯基"
+ 
+ # # #俄罗斯
+ 
+ RFE_Aleksandr_Fyodorovich_Kerenskiy: "亚历山大·费奥多罗维奇·克伦斯基"
+ 
+ # # #普鲁士
+ 
+ PRE_Wilhelm_II: "腓特烈·威廉二世·维克托·阿尔贝特·冯·普鲁士"
+ 
+ # # #英国
+ 
+ ENG_NeiGeWeiJi: "内阁危机"
+ 
+ ENG_Stanley_Baldwin: "斯坦利·鲍德温"
+ 
+ ENG_Winston_Churchill: "温斯顿·伦纳德·斯宾塞-丘吉尔"
+ 
+ ENG_George_V: "乔治五世·弗雷德里克·恩斯特·阿尔伯特"
+ 
+ ENG_Edward_VIII: "爱德华八世·阿尔伯特·克里斯蒂安·乔治·安德鲁·帕特里克·大卫"
+ 
+ # # #梵蒂冈
+ 
+ PAP_Pius_PP_XI: "庇护十一世"
+ 
+ # # #中共
+ 
+ PRC_MaoZeDong: "毛泽东"
+ 
+ PRC_LiDaZHao: "李大钊"
+ 
+ PRC_CHenDuXiu: "陈独秀"
+ 
+ # # #中国
+ 
+ CHI_JiangJieSHi: "蒋介石"
+ 
+ # # #日本
+ 
+ JAP_ZHaoHe: "昭和天皇"
+ 
+ # # #康沃尔
+ 
+ KER_Edward_VIII: "爱德华八世·阿尔伯特·克里斯蒂安·乔治·安德鲁·帕特里克·大卫"
+ 
+ # # #魏玛
+ 
+ FGE_Ernst_Johannes_Fritz_Thalmann: "恩斯特·约翰内斯·弗里兹·台尔曼"
+ 
+ FGE_Rosa_Luxemburg: "罗莎·卢森堡"
+ 
+ FGE_Paul_von_Hindenburg: "保罗·路德维希·汉斯·安东·冯·贝内肯多夫和冯·兴登堡"
+ 
+ FGE_Reichstag: "帝国议会"
+ 
+ # # #法国
+ 
+ FRA_Albert_Francois_Lebrun: "阿尔贝·弗朗索瓦·勒布伦"
+ 
+ FRA_Andre_Leon_Blum: "安德烈·莱昂·布鲁姆"
+ 
+ # # #阜姆
+ 
+ FSO_Gabriele_DAnnunzio: "加布里埃尔·邓南遮"
+ 
+ # # #列支敦士登
+ 
+ LIE_Franz_Josef_Hoop: "弗朗茨·约瑟夫·霍普"
+ 
+ #个人特征
+ 
+ # # #领导人
+ 
+ heijunlingdaozhe: "黑军领袖"
+ 
+ union_man: "迪克西"
+ 
+ WeiDaDeYuanSHou: "伟大的元首"
+ 
+ Habsburg: "哈布斯堡"
+ 
+ YuanSHou: "元首"
+ 
+ TianCaiDeWaiJiaoGuan: "“天才”的外交官"
+ 
+ YongYuanDeZongTong: "永远的总统"
+ 
+ GeMingLingXiu: "革命领袖"
+ 
+ GongCHanDangDeDiZaoZHe: "共产党的缔造者"
+ # # #顾问
+ 
+ fascist_demagogue: "民粹煽动家"
+ 
+ #fascist_demagogue: "反外国宣传者"
+ 
+ SHaHuangZuiZHongCHengDeJinWeiBing: "沙皇最忠诚的近卫兵"
+ 
+ ZHanZHengJingJiXueJia: "“换生灵”"
+ 
+ JingJiWuSHi: "经济巫师"
+ 
+ #国民精神
+
+ csa_meizhoudetongzhizhe: "美洲的统治者"
+ csa_meizhoudetongzhizhe_desc: "美洲的统治者"
+ 
+ csa_zhaozhaotianming: "昭昭天命"
+ csa_zhaozhaotianming_desc: "昭昭天命"
+ 
+ csa_mimiguancha: "秘密观察"
+ csa_mimiguancha_desc: "秘密观察"
+
+ #事件
+ 
+ # # #彩蛋
+ 
+ bw.1: "因纽特人暴动"
+ bw.1.t: "因纽特人暴动"
+ bw.1.d: "因纽特人暴动"
+ bw.1.a: "镇压暴动"
+ bw.1.b: "建立自治领"
+ bw.1.c: "正好测试"
+ 
+ bw.2: "时空紊乱"
+ bw.2.t: "时空紊乱"
+ bw.2.d: "时空紊乱"
+ bw.2.a: "太危险了"
+ bw.2.b: "继续测试"
+ 
+ bw.3: "维度裂缝"
+ bw.3.t: "维度裂缝"
+ bw.3.d: "维度裂缝"
+ bw.3.a: "关闭它"
+ bw.3.b: "派遣人员"
+ 
+ bw.4: "外星球"
+ bw.4.t: "外星球"
+ bw.4.d: "外星球"
+ bw.4.a: "秘密观察"
+ bw.4.b: "外星球也将臣服于大英帝国"
+ 
+ bw.5: "外星人反攻"
+ bw.5.t: "外星人反攻"
+ bw.5.d: "外星人反攻"
+ bw.5.a: "这只是一个小失误"
+ bw.5.b: "现在学习外星语还来得及吗？"
+ 
+ bw.6: "飞机坠毁"
+ bw.6.t: "飞机坠毁"
+ bw.6.d: "飞机坠毁"
+ bw.6.a: "别管它"
+ bw.6.b: "这不正常"
+ 
+ bw.7: "地下实验室"
+ bw.7.t: "地下实验室"
+ bw.7.d: "地下实验室"
+ bw.7.a: "把它炸了"
+ bw.7.b: "继续调查"
+ 
+ bw.8: "一张纸条"
+ bw.8.t: "一张纸条"
+ bw.8.d: "一张纸条"
+ bw.8.a: "没什么东西，给他炸了"
+ bw.8.b: "研究"
+ 
+ bw.9: "维度艺术"
+ bw.9.t: "维度艺术"
+ bw.9.d: "维度艺术"
+ bw.9.a: "真漂亮"
+
+ bw.10: "科学家出逃" 
+ bw.10.t: "科学家出逃"
+ bw.10.d: "科学家出逃"
+ bw.10.a: "Oh no"
+ 
+ # # #大不列颠
+ 
+ #bw_ENG.1: "不列颠要求削减自治权"
+ #bw_ENG.1.t: "不列颠要求削减自治权"
+ #bw_ENG.1.d: "今日不列颠政府通过了《1935年印度政府法案》要求我们加入王国"
+ #bw_ENG.1.a: "谁叫他是我们的宗主"
+ #
+ #bw_ENG.2: "马祖伦或战争"
+ #bw_ENG.2.t: "马祖伦或战争"
+ #bw_ENG.2.d: ""
+ #bw_ENG.2.a: "欺人太甚"
+ #
+ #bw_ENG.3: "欺人太甚"
+ #bw_ENG.3.t: "欺人太甚"
+ #bw_ENG.3.d: ""
+ #bw_ENG.3.a: "旧友"
+ 
+ bw_ENG.1: "辞职"
+ bw_ENG.1.t: "辞职"
+ bw_ENG.1.d: ""
+ bw_ENG.1.a: "丘吉尔"
+ bw_ENG.1.b: "张伯伦"
+ 
+ bw_ENG.2: "国王驾崩"
+ bw_ENG.2.t: "国王驾崩"
+ bw_ENG.2.d: ""
+ bw_ENG.2.a: "先皇已逝"
+ 
+ bw_ENG.3: "葬礼"
+ bw_ENG.3.t: "葬礼"
+ bw_ENG.3.d: ""
+ bw_ENG.3.a: "愿他安息"
+ 
+ bw_ENG.4: "爱德华八世退位危机"
+ bw_ENG.4.t: "爱德华八世退位危机"
+ bw_ENG.4.d: ""
+ bw_ENG.4.a: "国王一意孤行..."
+ bw_ENG.4.b: "那就只能退位..."
+ 
+ bw_ENG.5: "王党成立"
+ bw_ENG.5.t: "王党成立"
+ bw_ENG.5.d: ""
+ bw_ENG.5.a: "民心所向"
+ 
+ bw_ENG.6: "内阁集体辞职"
+ bw_ENG.6.t: "内阁集体辞职"
+ bw_ENG.6.d: ""
+ bw_ENG.6.a: "让他们滚蛋"
+ 
+ bw_ENG.7: "王党接管政府"
+ bw_ENG.7.t: "王党接管政府"
+ bw_ENG.7.d: ""
+ bw_ENG.7.a: "丘吉尔继续担任首相"
+ bw_ENG.7.b: "大护国公于今日抵达他忠诚的伦敦"
+ bw_ENG.7.c: "国王亲自领导"
+ 
+ bw_ENG.8: "联合王国战时整合"
+ bw_ENG.8.t: "联合王国战时整合"
+ bw_ENG.8.d: ""
+ bw_ENG.8.a: "我们永远忠于伦敦"
+ 
+ bw_ENG.9: "英国要求我们遵守英埃协定"
+ bw_ENG.9.t: "英国要求我们遵守英埃协定"
+ bw_ENG.9.d: ""
+ bw_ENG.9.a: "我们会遵守条约的"
+ bw_ENG.9.b: "他们多心了"
+ 
+ bw_ENG.10: "埃及遵守协定"
+ bw_ENG.10.t: "埃及遵守协定"
+ bw_ENG.10.d: ""
+ bw_ENG.10.a: "向的黎波里进军！"
+ 
+ bw_ENG.11: "埃及拒绝"
+ bw_ENG.11.t: "埃及拒绝"
+ bw_ENG.11.d: ""
+ bw_ENG.11.a: "他们已经上了德国人的贼船！？"
+ bw_ENG.11.b: "我们确实多心了"
+ 
+ bw_ENG.12: "英国试图控制我国"
+ bw_ENG.12.t: "英国试图控制我国"
+ bw_ENG.12.d: ""
+ bw_ENG.12.a: "他们休想！"
+ bw_ENG.12.b: "为了世界和平......我们同意"
+ 
+ bw_ENG.13: "比利时拒绝参战"
+ bw_ENG.13.t: "比利时拒绝参战"
+ bw_ENG.13.d: ""
+ bw_ENG.13.a: "为了世界和平......进攻"
+ bw_ENG.13.b: "我们尊重他的主权"
+ 
+ bw_ENG.14: "英国结束贸易战"
+ bw_ENG.14.t: "英国结束贸易战"
+ bw_ENG.14.d: ""
+ bw_ENG.14.a: "终于结束了"
+ 
+ bw_ENG.15: "英国投资我国企业"
+ bw_ENG.15.t: "英国投资我国企业"
+ bw_ENG.15.d: ""
+ bw_ENG.15.a: "他们是良心发现了？"
+ 
+ bw_ENG.16: "英国以北爱尔兰问题进行谈判"
+ bw_ENG.16.t: "英国以北爱尔兰问题进行谈判"
+ bw_ENG.16.d: ""
+ bw_ENG.16.a: "寸土不让"
+ bw_ENG.16.b: "允许自治"
+ bw_ENG.16.c: "归还领土"
+ 
+ bw_ENG.17: "绝不妥协"
+ bw_ENG.17.t: "绝不妥协"
+ bw_ENG.17.d: ""
+ bw_ENG.17.a: "那就算了"
+ bw_ENG.17.b: "加重筹码"
+ bw_ENG.17.c: "准备执行“亚瑟王”行动"
+ 
+ bw_ENG.18: "加重筹码"
+ bw_ENG.18.t: "加重筹码"
+ bw_ENG.18.d: ""
+ bw_ENG.18.a: "我也加"
+ bw_ENG.18.b: "部分妥协"
+ bw_ENG.18.c: "妥协"
+ 
+ bw_ENG.19: "部分妥协"
+ bw_ENG.19.t: "部分妥协"
+ bw_ENG.19.d: ""
+ bw_ENG.19.a: "就这样吧了"
+ bw_ENG.19.b: "加重筹码"
+ 
+ bw_ENG.20: "加重筹码"
+ bw_ENG.20.t: "加重筹码"
+ bw_ENG.20.d: ""
+ bw_ENG.20.a: "我改变主意了"
+ bw_ENG.20.b: "我也加"
+ bw_ENG.20.c: "妥协"
+ 
+ bw_ENG.21: "妥协"
+ bw_ENG.21.t: "妥协"
+ bw_ENG.21.d: ""
+ bw_ENG.21.a: "非常好"
+ 
+ bw_ENG.22: "英国请求购买煤牛"
+ bw_ENG.22.t: "英国请求购买煤牛"
+ bw_ENG.22.d: ""
+ bw_ENG.22.a: "反正没啥损失"
+ bw_ENG.22.b: "这是非卖品"
+ 
+ bw_ENG.23: "爱尔兰出售煤牛"
+ bw_ENG.23.t: "爱尔兰出售煤牛"
+ bw_ENG.23.d: ""
+ bw_ENG.23.a: "给我们的国王尝尝鲜"
+ 
+ bw_ENG.24: "爱尔兰拒绝出售煤牛"
+ bw_ENG.24.t: "爱尔兰拒绝出售煤牛"
+ bw_ENG.24.d: ""
+ bw_ENG.24.a: "我们英国牛也不差"
+ 
+ bw_ENG.25: "英国请求签署贸易条约"
+ bw_ENG.25.t: "英国请求签署贸易条约"
+ bw_ENG.25.d: ""
+ bw_ENG.25.a: "他们能从我们这买点啥？"
+ bw_ENG.25.b: "爱尔兰市场必须拥有完整主权"
+ 
+ bw_ENG.26: "爱尔兰签署贸易条约"
+ bw_ENG.26.t: "爱尔兰签署贸易条约"
+ bw_ENG.26.d: ""
+ bw_ENG.26.a: "英爱市场逐渐一体化了"
+ 
+ bw_ENG.27: "爱尔兰拒绝签署贸易条约"
+ bw_ENG.27.t: "爱尔兰拒绝签署贸易条约"
+ bw_ENG.27.d: ""
+ bw_ENG.27.a: "难道他们看透了？"
+ 
+ bw_ENG.28: "英国邀请加入英联邦"
+ bw_ENG.28.t: "英国邀请加入英联邦"
+ bw_ENG.28.d: ""
+ bw_ENG.28.a: "他们暴露了？"
+ bw_ENG.28.b: "为英爱友谊干杯"
+ 
+ bw_ENG.29: "爱尔兰拒绝加入英联邦"
+ bw_ENG.29.t: "爱尔兰拒绝加入英联邦"
+ bw_ENG.29.d: ""
+ bw_ENG.29.a: "至少防止了爱尔兰倒向德国"
+ bw_ENG.29.b: "准备执行“亚瑟王”行动"
+ 
+ bw_ENG.30: "爱尔兰加入英联邦"
+ bw_ENG.30.t: "爱尔兰加入英联邦"
+ bw_ENG.30.d: ""
+ bw_ENG.30.a: "成了"
+ 
+ bw_ENG.31: "英国加强贸易战"
+ bw_ENG.31.t: "英国加强贸易战"
+ bw_ENG.31.d: ""
+ bw_ENG.31.a: "不妙的消息"
+ 
+ bw_ENG.32: "英国封锁爱尔兰领海"
+ bw_ENG.32.t: "英国封锁爱尔兰领海"
+ bw_ENG.32.d: ""
+ bw_ENG.32.a: "联系中立国，立刻！"
+ 
+ bw_ENG.33: "北爱尔兰独立游行"
+ bw_ENG.33.t: "北爱尔兰独立游行"
+ bw_ENG.33.d: ""
+ bw_ENG.33.a: "肯定是英国人搞得鬼"
+ 
+ bw_ENG.34: "恐慌情绪蔓延"
+ bw_ENG.34.t: "恐慌情绪蔓延"
+ bw_ENG.34.d: ""
+ bw_ENG.34.a: "只要黑市发起进攻，一切都会好起来的"
+ 
+ bw_ENG.35: "英国警告我们"
+ bw_ENG.35.t: "英国警告我们"
+ bw_ENG.35.d: ""
+ bw_ENG.35.a: "果然..."
+ 
+ bw_ENG.36: "北爱尔兰叛乱！"
+ bw_ENG.36.t: "北爱尔兰叛乱！"
+ bw_ENG.36.d: ""
+ bw_ENG.36.a: "该死的"
+ 
+ # # #爱德华八世退位危机
+ 
+ bw_ENG_TuiWeiWeiJi.1: "爱德华八世退位危机"
+ bw_ENG_TuiWeiWeiJi.1.t: "爱德华八世退位危机"
+ bw_ENG_TuiWeiWeiJi.1.d: "非常最贵的首相，我们的国王爱德华八世于今日宣布了他与华里丝将要结婚的消息，这很明显不符合英国圣公宗的规定，华里丝出身卑微，还有传言说她是美国间谍，而国王坚持要跟她结婚，这该怎么办？"
+ bw_ENG_TuiWeiWeiJi.1.a: "国王一意孤行..."
+ bw_ENG_TuiWeiWeiJi.1.b: "那就只能退位..."
+ 
+ bw_ENG_TuiWeiWeiJi.2: "媒体反对国王"
+ bw_ENG_TuiWeiWeiJi.2.t: "媒体反对国王"
+ bw_ENG_TuiWeiWeiJi.2.d: "国王陛下，今天的泰晤士报刊登了一篇反对您的文章，他们说：“国王应该对国家和圣公宗迎娶一位二婚的美国女人这件事既违反圣公宗规定，也有通敌的嫌疑，所以国王应该放弃王位或者放弃婚姻。”"
+ bw_ENG_TuiWeiWeiJi.2.a: "政府的傀儡而已"
+ bw_ENG_TuiWeiWeiJi.2.b: "...他们是对的"
+ 
+ bw_ENG_TuiWeiWeiJi.3: "民众表示疑惑"
+ bw_ENG_TuiWeiWeiJi.3.t: "民众表示疑惑"
+ bw_ENG_TuiWeiWeiJi.3.d: "总理阁下，今天在发生了游行，他们声称：“政府一直在欺骗我们，我们之前连华里丝是谁都不知道，最开始还是从葡属非洲那边听到的。”"
+ bw_ENG_TuiWeiWeiJi.3.a: "我们只是听从伦敦的安排"
+ 
+ bw_ENG_TuiWeiWeiJi.4: "民众表示疑惑"
+ bw_ENG_TuiWeiWeiJi.4.t: "民众表示疑惑"
+ bw_ENG_TuiWeiWeiJi.4.d: "国王陛下，今天在个自治领和英国本土都发生了游行，尤其是南非，他们声称：“政府一直在欺骗我们，我们之前连华里丝是谁都不知道，最开始还是从葡属非洲那边听到的。”这明显是政府之前在封锁消息，这件事情连国王您都没告诉"
+ bw_ENG_TuiWeiWeiJi.4.a: "他们这都敢？！"
+ 
+ bw_ENG_TuiWeiWeiJi.5: "民众支持国王"
+ bw_ENG_TuiWeiWeiJi.5.t: "民众支持国王"
+ bw_ENG_TuiWeiWeiJi.5.d: "总理阁下，今天游行的目标发生了变化，他们在了解事情的经过后开始支持国王，认为所有人包括国王的婚姻自由应该受到保障，这可能会让国王更加坚持自己的想法"
+ bw_ENG_TuiWeiWeiJi.5.a: "不妙的消息"
+ 
+ bw_ENG_TuiWeiWeiJi.6: "民众支持国王"
+ bw_ENG_TuiWeiWeiJi.6.t: "民众支持国王"
+ bw_ENG_TuiWeiWeiJi.6.d: "国王陛下，今天游行的目标发生了变化，在他们了解事情的经过后开始支持您，他们现在认为所有人包括国王您的婚姻自由应该受到保障，这可能会一些议员导向您"
+ bw_ENG_TuiWeiWeiJi.6.a: "好起来了"
+ 
+ bw_ENG_TuiWeiWeiJi.7: "自治领反对国王"
+ bw_ENG_TuiWeiWeiJi.7.t: "自治领反对国王"
+ bw_ENG_TuiWeiWeiJi.7.d: "国王陛下，今天各自治领总督在看到民众支持您后表示：“如果国王成婚我们会立刻辞职”这是赤裸裸的威胁，但是英国议会也有这种想法，如果是真的联合王国可能就此崩溃，怎么办？"
+ bw_ENG_TuiWeiWeiJi.7.a: "告诉莫斯利来白金汉宫一趟"
+ 
+ bw_ENG_TuiWeiWeiJi.8: "王党成立"
+ bw_ENG_TuiWeiWeiJi.8.t: "王党成立"
+ bw_ENG_TuiWeiWeiJi.8.d: "国王陛下，莫斯利和他的法西斯联盟同意支持您，并且他们改名叫王党，劳合乔治也加入了进去，据说丘吉尔也支持王党。"
+ bw_ENG_TuiWeiWeiJi.8.a: "现在不怕他们辞职了"
+ 
+ bw_ENG_TuiWeiWeiJi.9: "王党成立"
+ bw_ENG_TuiWeiWeiJi.9.t: "王党成立"
+ bw_ENG_TuiWeiWeiJi.9.d: "总理阁下，莫斯利和他的法西斯联盟以及劳合乔治建立了王党，据说丘吉尔也支持王党，这下辞职不管用了，怎么办？"
+ bw_ENG_TuiWeiWeiJi.9.a: "......      "
+ 
+ bw_ENG_TuiWeiWeiJi.10: "国王陛下与华里丝的的婚礼"
+ bw_ENG_TuiWeiWeiJi.10.t: "国王陛下与华里丝的的婚礼"
+ bw_ENG_TuiWeiWeiJi.10.d: "王室大婚的良辰吉日终于到来。新人由白金汉宫前往威斯敏斯特修道院，道路两旁人潮汹涌。\n\n国内对婚事的非议之声渐显无力。在集体辞职等诸多手段皆无功而返之后，一切反对声都陷入了死寂。最后的抵抗来自坎特伯雷大主教科斯莫·朗的离职，而他的继任者则对国王的意愿更为……服从。\n\n在这次危机酿成的政治地震震后，当下的庆祝活动不仅是公共秩序的恢复所不可或缺的，更是解决当前政治矛盾的第一步。"
+ bw_ENG_TuiWeiWeiJi.10.a: "但这足以弥合国家的裂痕吗？"
+ 
+ bw_ENG_TuiWeiWeiJi.11: "国王陛下与华里丝的的婚礼"
+ bw_ENG_TuiWeiWeiJi.11.t: "国王陛下与华里丝的的婚礼"
+ bw_ENG_TuiWeiWeiJi.11.d: "总理阁下。今日国王和华里丝在威斯敏斯特修道院结婚了，这说明让国王退位的想法彻底破产，我们应该"
+ bw_ENG_TuiWeiWeiJi.11.a: "立刻辞职"
+ 
+ bw_ENG_TuiWeiWeiJi.12: "总督集体辞职"
+ bw_ENG_TuiWeiWeiJi.12.t: "总督集体辞职"
+ bw_ENG_TuiWeiWeiJi.12.d: ""
+ bw_ENG_TuiWeiWeiJi.12.a: "让他们滚蛋！"
+ 
+ bw_ENG_TuiWeiWeiJi.13: "内阁集体辞职"
+ bw_ENG_TuiWeiWeiJi.13.t: "内阁集体辞职"
+ bw_ENG_TuiWeiWeiJi.13.d: ""
+ bw_ENG_TuiWeiWeiJi.13.a: "让他们滚蛋！"
+ 
+ bw_ENG_TuiWeiWeiJi.14: "王党接管政府"
+ bw_ENG_TuiWeiWeiJi.14.t: "王党接管政府"
+ bw_ENG_TuiWeiWeiJi.14.d: ""
+ bw_ENG_TuiWeiWeiJi.14.a: "天佑国王"
+ bw_ENG_TuiWeiWeiJi.14.b: "拯救伦敦"
+ 
+ # # #德三
+ 
+ #bw_FGE.1: "魏玛政府倒台"
+ #bw_FGE.1.t: "魏玛政府倒台"
+ #bw_FGE.1.d: "德意志统一了，虽然台尔曼拒不投降，但他能干什么？打游击吗？"
+ #bw_FGE.1.a: "德意志万岁！元首万岁！第三帝国万岁！"
+ #
+ #bw_FGE.1: "胜利"
+ #bw_FGE.1.t: "胜利"
+ #bw_FGE.1.d: "德意志统一了，虽然台尔曼拒不投降，但他能干什么？打游击吗？"
+ #bw_FGE.1.a: "德意志万岁！元首万岁！第三帝国万岁！"
+ #
+ #bw_FGE.1: "魏玛政府崩溃"
+ #bw_FGE.1.t: "魏玛政府崩溃"
+ #bw_FGE.1.d: "我的元首，帝国的军队于今日攻破德共总部，但有一份不幸的消息要告诉您，我们未能抓到台尔曼，据可靠信息所称：他已经坐上共产国际的飞机逃之夭夭。其他高官都已被枪毙，前魏玛控制区现以分裂为各个游击队组织和军阀。"
+ #bw_FGE.1.a: "一个国家，一个民族，一个元首"
+ #
+ #bw_FGE.2: "德意志自由主义者起义"
+ #bw_FGE.2.t: "德意志自由主义者起义"
+ #bw_FGE.2.d: "我的元首，据可靠信息所称：西里西亚地区于今日发生游行，现以演化为流血事件，他们拥立沙赫特为领袖，宣布西里西亚独立。我们应该以什么样的姿态面对他们？"
+ #bw_FGE.2.a: "碧蓝的天空只允许法西斯之鹰翱翔"
+ #
+ #bw_FGE.3: "普鲁士，重归我手！"
+ #bw_FGE.3.t: "普鲁士，重归我手！"
+ #bw_FGE.3.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
+ #bw_FGE.3.a: "欢迎回家"
+ #
+ #bw_FGE.4: "普鲁士，重归我手！"
+ #bw_FGE.4.t: "普鲁士，重归我手！"
+ #bw_FGE.4.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
+ #bw_FGE.4.a: "德意志终于完整了"
+ #
+ #bw_FGE.5: "最后通牒"
+ #bw_FGE.5.t: "最后通牒"
+ #bw_FGE.5.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
+ #bw_FGE.5.a: "我...我同意"
+ #bw_FGE.5.b: "捷克命不该绝！"
+ #
+ #bw_FGE.6: "捷克的命运"
+ #bw_FGE.6.t: "捷克的命运"
+ #bw_FGE.6.d_2: "我的元首，捷克接受了我们的最后通牒，现在我们可以任意摆弄它，海德里希希望建立一个保护国进行管理。\n\n\n但更多人认为应该直接吞并，毕竟捷克也是在大德意志的范围之中的。"
+ #bw_FGE.6.a: "建立保护国"
+ #bw_FGE.6.b: "全境归帝国所有"
+ #
+ #bw_FGE.7: "神秘人"
+ #bw_FGE.7.t: "神秘人"
+ #bw_FGE.7.d: "今天在市长下班后，他发现好像有人跟踪他。\n\n“有人吗”\n“你觉得呢”\n“你是谁”\n“这不重要”\n\n市长突然感觉眼前一黑就倒了下去。\n\n\n等他醒来……"
+ #bw_FGE.7.a: "谁？"
+ #
+ #bw_FGE.8: "反布尔什维克志愿军"
+ #bw_FGE.8.t: "反布尔什维克志愿军"
+ #bw_FGE.8.d: ""
+ #bw_FGE.8.a: "我当然愿意帮忙…"
+ #bw_FGE.8.b: "但是这是德国自己的事情，与我无关"
+ #
+ #bw_FGE.9: "反布尔什维克志愿军"
+ #bw_FGE.9.t: "反布尔什维克志愿军"
+ #bw_FGE.9.d: ""
+ #bw_FGE.9.a: "非常好"
+ #bw_FGE.9.b: "希望他们不要脏了慕尼黑的街"
+ #
+ #bw_FGE.10: "波美拉尼亚或战争"
+ #bw_FGE.10.t: "波美拉尼亚或战争"
+ #bw_FGE.10.d: ""
+ #bw_FGE.10.a: "我们只能妥协"
+ #bw_FGE.10.b: "奥地利下士别嚣张"
+ #
+ #bw_FGE.11: "普鲁士妥协"
+ #bw_FGE.11.t: "普鲁士妥协"
+ #bw_FGE.11.d: ""
+ #bw_FGE.11.a: "太好了"
+ #
+ #bw_FGE.12: "普鲁士拒不退让"
+ #bw_FGE.12.t: "普鲁士拒不退让"
+ #bw_FGE.12.d: ""
+ #bw_FGE.12.a: "开战！"
+ #
+ #bw_FGE.13: "普鲁士的命运"
+ #bw_FGE.13.t: "普鲁士的命运"
+ #bw_FGE.13.d: ""
+ #bw_FGE.13.a: "我在这也够久了"
+ #bw_FGE.13.b: "共和派还想把我逼到什么地方？"
+ #
+ #bw_FGE.14: "$FGE$索取南蒂罗尔和滨海区"
+ #bw_FGE.14.t: "$FGE$索取南蒂罗尔和滨海区"
+ #bw_FGE.14.d: ""
+ #bw_FGE.14.a: "几块烂地？可以"
+ #bw_FGE.14.b: "滚"
+ #
+ #bw_FGE.15: "意大利同意割让领土"
+ #bw_FGE.15.t: "意大利同意割让领土"
+ #bw_FGE.15.d: ""
+ #bw_FGE.15.a: "识时务者为俊杰"
+ #
+ #bw_FGE.16: "意大利拒绝割让领土"
+ #bw_FGE.16.t: "意大利拒绝割让领土"
+ #bw_FGE.16.d: ""
+ #bw_FGE.16.a: "准备执行撒丁行动"
+ #bw_FGE.16.b: "现在还不是时候"
+ #
+ #bw_FGE.17: "马祖伦或战争"
+ #bw_FGE.17.t: "马祖伦或战争"
+ #bw_FGE.17.d: ""
+ #bw_FGE.17.a: "本来也不属于我"
+ #bw_FGE.17.b: "拿但泽交换如何？"
+ #bw_FGE.17.c: "已经拿到的领土为什么要吐出来？"
+ #
+ #bw_FGE.18: "波兰同意归还领土"
+ #bw_FGE.18.t: "波兰同意归还领土"
+ #bw_FGE.18.d: ""
+ #bw_FGE.18.a: "算他识相"
+ #
+ #bw_FGE.19: "交易"
+ #bw_FGE.19.t: "交易"
+ #bw_FGE.19.d: ""
+ #bw_FGE.19.a: "以后一定让他吐出来"
+ #bw_FGE.19.b: "算是谈崩了？"
+ #
+ #bw_FGE.20: "波兰拒绝归还领土"
+ #bw_FGE.20.t: "波兰拒绝归还领土"
+ #bw_FGE.20.d: ""
+ #bw_FGE.20.a: "土匪！！！"
+ #bw_FGE.20.b: "不能冒险"
+ 
+ bw_FGE.1: "魏玛政府崩溃"
+ bw_FGE.1.t: "魏玛政府崩溃"
+ bw_FGE.1.d: "我的元首，帝国的军队于今日攻破德共总部，但有一份不幸的消息要告诉您，我们未能抓到台尔曼，据可靠信息所称：他已经坐上共产国际的飞机逃之夭夭。其他高官都已被枪毙，前魏玛控制区现以分裂为各个游击队组织和军阀。"
+ bw_FGE.1.a: "一个国家，一个民族，一个元首"
+ 
+ bw_FGE.2: "德意志自由主义者起义"
+ bw_FGE.2.t: "德意志自由主义者起义"
+ bw_FGE.2.d: "我的元首，据可靠信息所称：西里西亚地区于今日发生游行，现以演化为流血事件，他们拥立沙赫特为领袖，宣布西里西亚独立。我们应该以什么样的姿态面对他们？"
+ bw_FGE.2.a: "碧蓝的天空只允许法西斯之鹰翱翔"
+ 
+ # # #反布尔什维克志愿军
+ 
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.1: "反布尔什维克志愿军"
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.1.t: "反布尔什维克志愿军"
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.1.d: "{领导人尊称}，$FGE$的临时外交部今天来访问时表示：“德国深受共产党的暴政，全世界的共产分子也越来越多，我们必须一起对抗共产主义。”"
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.1.a: "我当然愿意帮忙..."
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.1.b: "...但是这是德国自己的事情，与我无关"
+ 
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.2: "反布尔什维克志愿军"
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.2.t: "反布尔什维克志愿军"
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.2.d: ""
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.2.a: "非常好"
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.2.b: "希望他们不要脏了慕尼黑的街"
+ 
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.3: "反布尔什维克志愿军归家"
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.3.t: "反布尔什维克志愿军归家"
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.3.d: ""
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.3.a: "现在共产势力应该不敢这么猖狂了"
+ 
+ # # #德三新闻
+ 
+ bw_FGE_XinWen.1: "纳粹党赢得德国内战"
+ bw_FGE_XinWen.1.t: "纳粹党赢得德国内战"
+ bw_FGE_XinWen.1.d: "这里是德意志广播电台，中波833千赫，全国同步播送。就在今天，发生了一件大事，由阿道夫·希特勒带领的临时政府已抓获大部分德共高层并全部处决，但据可靠消息所称：台尔曼已经坐着共产国际的飞机逃之夭夭。对于新生的德国会采取什么政策我们现在一无所知，但希特勒表示：在内战中绝对没有发生人道主义悲剧，并且未来也不会发生，新德国将维护法尔赛秩序和欧陆和平。"
+ bw_FGE_XinWen.1.a: "希望他说的是真的"
+ 
+ # # #法国新闻
+ 
+ bw_FRA_XinWen.1: "巴黎股市崩盘"
+ bw_FRA_XinWen.1.t: "巴黎股市崩盘"
+ bw_FRA_XinWen.1.d: "欢迎来到世界新闻，今天巴黎股市平均下降72个百分点，其中雷诺，伊拉克石油，安盛等下降率高达90%以上，达到历史新高。许多企业不得不通过裁员等方式度过这场危机，对此全法各地都出现失业民众的游行，巴黎甚至都出现有人手举红旗高唱国际歌和马赛曲。\n\n巴黎方面表示已经在努力度过这场危机，但据专家预测今年法国GDP将下降10%左右，其中著名经济学家哈耶克表示：就是以为法国干预市场的行为导致了这场危机，只要法国政府放弃干预市场经济就会缓慢恢复。"
+ bw_FRA_XinWen.1.a: "法兰西就此陨落"
+ 
+ # # #南非新闻
+ 
+ bw_SAF_XinWen.1: "第三次布尔战争"
+ bw_SAF_XinWen.1.t: "第三次布尔战争"
+ bw_SAF_XinWen.1.d: "第二次布尔战争以后德兰士瓦共和国等布尔人国家就被英国吞并，近几年由奥瑟瓦-布兰德维格为首的布尔人民族主义组织崛起，他们要求在南非联邦的基础上建立德兰士瓦自治区，但伦敦方面一直拒绝他们的请求。虽然延续了博纳·劳的集权政策，但南非的矛盾越发严重。\n\n今天德班市发生大规模游行示威，示威者再次要求德兰士瓦的自主权，在警察镇压游行以后布尔民族主义被彻底点燃，整个纳塔尔都民族者占领，他们宣布纳塔尔脱离南非统治，重建德兰士瓦共和国。"
+ bw_SAF_XinWen.1.a: "德兰士瓦打赢复活赛了"
+ 
+ # # #波兰
+ 
+ bw_POL.1: "进军马祖伦"
+ bw_POL.1.t: "进军马祖伦"
+ bu_POL.1.d: ""
+ bw_POL.1.a: "正好弥补但泽"
+ bw_POL.1.b: "不能冒激怒德国的险"
+ 
+ # # #南北战争
+ 
+ bw_American_Civil_War.1: "巴黎股市彻底崩盘"
+ bw_American_Civil_War.1.t: "巴黎股市彻底崩盘"
+ bw_American_Civil_War.1.d: "巴黎股市的小范围崩盘已经演化成了彻底崩盘."
+ bw_American_Civil_War.1.a: "这不怪法国"
+ 
+ bw_American_Civil_War.2: "第二次南北战争"
+ bw_American_Civil_War.2.t: "第二次南北战争"
+ bw_American_Civil_War.2.d: "在朗集团的领导下华盛顿州、俄勒冈州、爱达荷州、蒙大拿州、怀俄明州、南北达科他州、内布拉斯加州、明尼苏达州、艾奥瓦州、威斯康星州、密歇根州和新英格兰各州宣布美利坚合众国得到重建。"
+ bw_American_Civil_War.2.a: "竟有人敢阻挡美利坚的昭昭天命"
+ 
+ bw_American_Civil_War.3: "归乡"
+ bw_American_Civil_War.3.t: "归乡"
+ bw_American_Civil_War.3.d: ""
+ bw_American_Civil_War.3.a: "这太危险了"
+ bw_American_Civil_War.3.b: "终于"
+ 
+ bw_American_Civil_War.4: "演讲"
+ bw_American_Civil_War.4.t: "演讲"
+ bw_American_Civil_War.4.d: "“总统阁下，西弗吉尼亚发生了一间大事。”\n\n“什么事？”\n\n“你…看看这张纸吧”\n\n我们接到举报说西弗吉尼亚出现反联盟言论，他们自称§R联邦党§!\n\n“美国是什么？现在美国是什么？一个是联邦，另一个是虚假的联邦，以前的美国呢？它是邦联它是“自由”现在我们要将自由带回美利坚”"
+ bw_American_Civil_War.4.a: "抓住他"
+ 
+ bw_American_Civil_War.5: "公开叛乱"
+ bw_American_Civil_War.5.t: "公开叛乱"
+ bw_American_Civil_War.5.d: ""
+ bw_American_Civil_War.5.a: "叛徒！"
+ 
+ bw_American_Civil_War.6: "西海岸独立"
+ bw_American_Civil_War.6.t: "西海岸独立"
+ bw_American_Civil_War.6.d: ""
+ bw_American_Civil_War.6.a: "他们真的会打仗吗？"
+ 
+ bw_American_Civil_War.7: "德克萨斯独立"
+ bw_American_Civil_War.7.t: "德克萨斯独立"
+ bw_American_Civil_War.7.d: ""
+ bw_American_Civil_War.7.a: "德克萨斯人，别捣乱！"
+ bw_American_Civil_War.7.b: "孤星崛起！（扮演德克萨斯）"
+ 
+ bw_American_Civil_War.8: "迪克西人起义"
+ bw_American_Civil_War.8.t: "迪克西人起义"
+ bw_American_Civil_War.8.d: ""
+ bw_American_Civil_War.8.a: "啊？"
+ 
+ bw_American_Civil_War.9: "奴隶暴动"
+ bw_American_Civil_War.9.t: "奴隶暴动"
+ bw_American_Civil_War.9.d: ""
+ bw_American_Civil_War.9.a: "他妈的"
+ 
+ bw_American_Civil_War.10: "总督辖区的崩溃"
+ bw_American_Civil_War.10.t: "总督辖区的崩溃"
+ bw_American_Civil_War.10.d: ""
+ bw_American_Civil_War.10.a: "不！！！" #BU======
+ 
+ # # #法国
+ 
+ bw_FRA.1: "大萧条席卷[ROOT.GetName]"
+ bw_FRA.1.t: "大萧条席卷[ROOT.GetName]"
+ bw_FRA.1.d: ""
+ bw_FRA.1.a: "赶快拯救经济"
+ 
+ # # #FGE
+ 
+ #bw_FGE.1: "西里西亚社民党游行"
+ #bw_FGE.1.t: "西里西亚社民党游行"
+ #bw_FGE.1.d: "粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！"
+ #bw_FGE.1.a: "我们可是被一票一票的被选出来的，你凭什么认为我们不民主？"
+ #bw_FGE.1.b: "粉碎苏维埃独裁！重建自由民主！（扮演德意志自由主义者起义）"
+ 
+ bw_FGE.1: "苏维埃会议"
+ bw_FGE.1.t: "苏维埃会议"
+ bw_FGE.1.d: ""
+ bw_FGE.1.a: "正统派：台尔曼"
+ bw_FGE.1.b: "共产国际派：皮克"
+ bw_FGE.1.c: "工团派：卢森堡"
+ bw_FGE.1.d: "刺刀派：李卜克内西"
+ 
+ # # #德国1935年总统大选
+ 
+ #bw_german_civil_war.1: "议会选举"
+ #bw_german_civil_war.1.t: "议会选举"
+ #bw_german_civil_war.1.d: "时间一分一秒的流过，纳粹党和共产党都势必要拿下这场选举，他们用语言充分表达意见，或用肢体表达意见，在最后公布选举结果的时候人们屏住呼吸，最终：共产党赢得多数，恩斯特·台尔曼成为德国新元首。"
+ #bw_german_civil_war.1.a: "人民已经做出选择"
+ 
+ bw_german_presidential_election_of_1935.1: "兴登堡逝世"
+ bw_german_presidential_election_of_1935.1.t: "兴登堡逝世"
+ bw_german_presidential_election_of_1935.1.d: "总理阁下，总统阁下于今日零时五十一分...死亡，死亡证明将注明突发心脏骤停，没有...遗言。"
+ bw_german_presidential_election_of_1935.1.a: "愿上帝保佑"
+ 
+ bw_german_presidential_election_of_1935.2: "你是谁"
+ bw_german_presidential_election_of_1935.2.t: "你是谁"
+ bw_german_presidential_election_of_1935.2.d: "我是..."
+ bw_german_presidential_election_of_1935.2.a: "...卢森堡"
+ bw_german_presidential_election_of_1935.2.b: "...希特勒"
+ 
+ #bw_german_civil_war.2: "议会选举"
+ #bw_german_civil_war.2.t: "议会选举"
+ #bw_german_civil_war.2.d: "总书记，汉堡的最后一批选票到了，加上那里的三万七千票，我们过了50%，但慕尼黑的褐衫党砸了三家报社。“没用，我们要让全世界知道，当工人阶级学会用选票装填枪膛，射出的将是...”"
+ #bw_german_civil_war.2.a: "...不是子弹，是黎明"
+ 
+ #bw_german_civil_war.3: "右翼的反扑"
+ #bw_german_civil_war.3.t: "右翼的反扑"
+ #bw_german_civil_war.3.d: "总书记，在我们准备清算右翼的时候，他们对我们发起了进攻，我们和自由军团以及冲锋队已经在萨克森和巴伐利亚交上手了。"
+ #bw_german_civil_war.3.a: "该死的，他们先一步行动了"
+ #bw_german_civil_war.3.b: "为了德意志的荣耀\n（扮演全德法西斯临时政府）"
+ 
+ # # #德国1935年总统大选新闻
+ 
+ bw_german_presidential_election_of_1935_XinWen.1: "兴登堡逝世"
+ bw_german_presidential_election_of_1935_XinWen.1.t: "兴登堡逝世"
+ bw_german_presidential_election_of_1935_XinWen.1.d: "这里是德意志广播电台，中波833千赫，全国同步播送。同胞们，德国人民，我们怀着沉痛的心情向全国宣告，德意志国总统保罗·冯·兴登堡阁下，于1935年2月2日晚，在柏林的家中安详离世。根据宪法规定，德国国会已启动总统选举程序，新的国家元首将在法律框架内由全体公民投票选出。\n\n即日起，全国进入三日哀悼期，各地降半旗致哀。总统的灵柩将于2月5日移送柏林，暂厝于国会大厦接受民众悼念，2月8日在坦能堡纪念碑举行国葬。\n\n愿上帝保佑兴登堡总统的灵魂安息，愿上帝保佑德意志祖国。"
+ bw_german_presidential_election_of_1935_XinWen.1.a: "R.I.P"
+ 
+ # # #日本
+ 
+ bw_JAP.1: "卢沟桥事变"
+ bw_JAP.1.t: "卢沟桥事变"
+ bw_JAP.1.d: ""
+ bw_JAP.1.a: "就这么干"
+ bw_JAP.1.b: "你忘记日俄战争的教训了？"
+ 
+ bw_JAP.2: "$CHI$拒绝割让领土"
+ bw_JAP.2.t: "$CHI$拒绝割让领土"
+ bw_JAP.2.d: ""
+ bw_JAP.2.a: "开战！"
+ 
+ bw_JAP.3: "$CHI$妥协"
+ bw_JAP.3.t: "$CHI$妥协"
+ bw_JAP.3.d: ""
+ bw_JAP.3.a: "算他们识趣"
+ 
+ # # #沙皇国
+ 
+ bw_FER.1: "$JAP$索取满洲"
+ bw_FER.1.t: "$JAP$索取满洲"
+ bw_FER.1.d: ""
+ bw_FER.1.a: "东北抗联祸害了我们这么久，是时候祸害一下日本了"
+ bw_FER.1.b: "看来他们是忘记日俄战争的教训了"
+ 
+ # # #中国
+ 
+ bw_CHI.1: "卢沟桥事变"
+ bw_CHI.1.t: "卢沟桥事变"
+ bw_CHI.1.d: ""
+ bw_CHI.1.a: "一寸山河一寸血，十万青年十万兵。开战！"
+ bw_CHI.1.b: "我们没有与列强拼的实力"
+ 
+ bw_CHI.2: "中华民族统一战线"
+ bw_CHI.2.t: "中华民族统一战线"
+ bw_CHI.2.d: ""
+ bw_CHI.2.a: "开始动员"
+ 
+ bw_CHI.3: "中华民国战时整合"
+ bw_CHI.3.t: "中华民国战时整合"
+ bw_CHI.3.d: ""
+ bw_CHI.3.a: "抗日是每个中国人的义务"
+ bw_CHI.3.b: "你这么说，那我可就投靠日本人了"
+ 
+ # # #教宗国
+ 
+ bw_PAP.1: "犹太人涌入"
+ bw_PAP.1.t: "犹太人涌入"
+ bw_PAP.1.d: ""
+ bw_PAP.1.a: "他们至少比穆斯林好"
+ bw_PAP.1.b: "异教徒赶紧滚"
+ 
+ # # #南非
+ 
+ bw_SAF.1: "奥瑟瓦-布兰德维格游行"
+ bw_SAF.1.t: "奥瑟瓦-布兰德维格游行"
+ bw_SAF.1.d: "总理阁下，今天在德班市奥瑟瓦-布兰德维格组织了一起大规模游行，他们再次要求给予德兰士瓦自主权，但我们已经将这种破坏集权政策的行为视为非法，他们已经忽视法律了！\n甚至我已经联系不到市长了！\n整个纳塔尔可能都陷入了混乱或者奥瑟瓦-布兰德维格控制！"
+ bw_SAF.1.a: "希望不要出什么事"
+ 
+ bw_SAF.2: "布尔人叛乱"
+ bw_SAF.2.t: "布尔人叛乱"
+ bw_SAF.2.d: "总理阁下，我们已经确定了纳塔尔的情况，奥瑟瓦-布兰德维格真的控制了纳塔尔，现在正在往比勒陀利亚前进，他们貌似要脱离帝国（大英帝国）统治，重建德兰士瓦共和国。"
+ #bw_SAF.2.a: "在不列颠的统治下好好跪着"
+ bw_SAF.2.a: "不好的消息"
+ bw_SAF.2.b: "为了荷兰的荣耀！（扮演德兰士瓦）"
+ 
+ bw_SAF.3: "非国大游行"
+ bw_SAF.3.t: "非国大游行"
+ bw_SAF.3.d: "总理阁下，今天在德班市发生了一场大规模游行，示威者要求给予德兰士瓦自主权，这种游行很明显很明显是不合规的。\n德班警察已经镇压示威者，但有证据表明布尔正在策划叛乱"
+ bw_SAF.3.a: "在不列颠的统治下好好跪着"
+ bw_SAF.3.b: "为了非洲的解放！（扮演泛非联盟）"
+ 
+ bw_SAF.3: "非国大游行"
+ bw_SAF.3.t: "非国大游行"
+ bw_SAF.3.d: "总理阁下，今天在德班市发生了一场大规模游行，示威者要求给予德兰士瓦自主权，这种游行很明显很明显是不合规的。\n德班警察已经镇压示威者，但有证据表明布尔正在策划叛乱"
+ bw_SAF.3.a: "在不列颠的统治下好好跪着"
+ bw_SAF.3.b: "为了非洲的解放！（扮演泛非联盟）"
+ 
+ #文本
+ 
+ JieSuoXiaYiBuGuoCe: "解锁下一步国策"
+ 
+ Treaty_of_Trianon_CZE_W: "捷克将被称为$CZE$"
+ 
+ SOV_QieHuanXiaYiJieDuanGuoCe: "§R切换下一阶段国策§!"
+ FocusTree_SOV_1: "先发制人"
+ 
+ TaMenKeNengHuiDeCuenJinCHi: "\n§R它们可能会得寸进尺§!\n"
+ 
+ TaMenKeNengHuiBaoFuNi: "\n§R它们可能会进行报复§!\n"
+ 
+ evelina_Jue: "欧，你居然用§Rdebug§!模式来玩我的模组，真的太令人震惊了！\n\n\n\n\n奖励你一个彩蛋 doge"
+ 
+ MiHeMaoDuen_Z: "解锁§Y矛盾§!决议组\n\n解锁决议§Y向委员会让步§!\n解锁决议§Y给予委员会更多权力§!"
+ 
+ bw_American_Civil_War_10: "总督辖区将会崩溃，你将接管剩余领土。"
+
+ ZHaoMu_ENG_Edward_VIII: "§Y爱德华八世·阿尔伯特·克里斯蒂安·乔治·安德鲁·帕特里克·大卫§!成为§Y君主主义§!领导人。\n  §Y经验尚浅的帝王§!\n  - 政治点数：§R-30%§!\n  - 稳定度：§G+5.00%§!\n  - 正当化战争目标所需时间：§G+25.0%§!"
+ 
+ bw_ENG_TiaoZHenHangXian: "收杋，前方有一场风暴\n"
+ 
+ bw_ENG_PingWenHangXing: "一切正常，继续航线\n"
+ 
+ bw_ENG_WuBao: "误报，一切正常"
+ 
+ World_War_II_YES: "二战已经开始"
+ World_War_II_NO: "二战已经结束"
+ 
+ YiCiZHiNengJinXingYiXiangXingDong: "一次只能进行一项行动"
+ 
+ bw_ENG_KongZHiSuGeLanJingCHa: "在独立战争开始时，获得3支缺乏训练的含§Y3个非正规步兵营§!的部队"
+ bw_ENG_ZHuanYiWuQiZHuangBei: "在独立战争开始时，苏格兰不会获得额外的军用工厂"
+ 
+ bw_FGE_FanBuErSHiWeiKeZHiYuanJun.tt: "在慕尼黑生成1个反布尔什维克志愿军师"
+ 
+ #权力平衡
+ 
+ FER_Kozak: "哥萨克的威胁"
+ WuWeiXie: "无威胁"
+ WeiXie: "威胁"
+ WuWeiXie_1: "毫无威胁" #毫不起眼
+ WuWeiXie_2: "小有威胁" #小有影响
+ PoJvWeiXie: "颇具威胁"
+ WeiXie_1: "迫在眉睫"
+ WeiXie_2: "掌控一切"
+ 
+ # # #废弃
+ 
+ FER_Tsar_KBKV: "权力分布"
+ Tsar_KBKV: "平衡"
+ Tsar: "国王"
+ Tsar_1: "分权"
+ Tsar_2: "正常"
+ Tsar_3: "独裁"
+ KBKV: "哥萨克"
+ KBKV_1: "哥萨克传统"
+ KBKV_2: "阿斗"
+ KBKV_3: "军政府"
+
+ #决议
+
+ political_actions: "政治行动"
+ anti_WuZHengFuGuongCHanZHuYi_raids: "逮捕反政府武装"
+ anti_GuongTuanZHuYi_raids: "逮捕激进工人"
+ anti_MaKeSi_LieNingZHuYi_raids: "逮捕左翼知识分子"
+ anti_TuoLuoSiJiZHuYi_raids: "逮捕先锋队成员"
+ anti_SiDaLingZHuYi_raids: "逮捕共产国际成员"
+ anti_YuanSHiZHuYi_raids: "逮捕先进科学家"
+ anti_JunZHengGuongCHanZHuYi_raids: "逮捕红色军人"
+ anti_JunZHuBuErSHiWeiKe_raids: "逮捕共产主义贵族"
+ anti_GuDianZiYouZHuYi_raids: "逮捕哈耶克主义者"
+ anti_SHeHuiMinZHuZHuYi_raids: "逮捕凯恩斯主义者"
+ anti_MinZHuSHeHuiZHuYi_raids: "逮捕温和共产主义者"
+ anti_JunZHuZHuYi_raids: "逮捕保皇派"
+ anti_ZiBenGuongCHanZHuYi_raids: "逮捕资本家"
+ anti__raids: "逮捕"
+ anti__raids: "逮捕"
+ anti__raids: "逮捕"
+ 
+ ENG_TanHeWeiJi_1: "弹劾危机"
+ ENG_TanHeWeiJi_2: "弹劾危机"
+ ENG_LaLongYiYuan: "拉拢议员"
+ ENG_SHuoFuGuoHui: "说服国会"
+ ENG_ZaiGuoHuiYanJiang: "在国会演讲"
+ 
+ ENG_SuGeLanDuLiZHanZHeng: "苏格兰独立战争"
+ ENG_PanLuan: "叛乱！"
+ ENG_ZHenYaBaoLuan: "镇压暴乱"
+ ENG_ZuoCHuSHaoLiangTuoXie: "做出少量妥协"
+ 
+ Tong_Yi_De: "德意志再一统"
+ Bei_De: "建立北德联邦"
+ De: "统一的德意志"
+ De4: "再次奋斗"
+ 
+ De3: "德意志第三帝国"
+ De3_T: "宣布德意志第三帝国建立"
+ 
+ Treaty_of_Trianon_CZE: "否认特里亚农条约"
+ 
+ HunLuanDeZHengFu: "混乱的政府"
+ RN_JieJin: "解禁国民联盟"
+ 
+ FGE_DeGuoNeiZHan: "德国内战"
+ FGE_ZHaoJiGuoJiZongDui: "召集国际纵队"
+ 
+ FGE_DeGuoNeiZHan: "德国内战"
+ FGE_ZHengHeBaDengFuTengBao: "整合巴登-符腾堡"
+ FGE_ZHengHeLaiYinLan: "整合莱茵兰"
+ FGE_ZHengHeBuLaiMeiJiZHoBian: "整合不来梅及周边"
+ FGE_ZHengHeXILiXiYa: "整合西里西亚"
+ FGE_ZHengHeSaKeSen: "整合萨克森"
+ FGE_ZHengHeTuLinGen: "整合图林根"
+ FGE_ZHengHeBoLanDengBao: "整合勃兰登堡"
+ FGE_ZHengHeBoLanDengBaoZHoBian: "整合勃兰登堡周边"
+ FGE_ZHengHeMeiKeLuenBaoJiZHoBian: "整合梅克伦堡及周边"
+ FGE_ZHengHeHanNuoWei: "整合汉诺威"
+ FGE_ZHengHeWeiSiTeFaLiYa: "整合威斯特伐利亚"
+ FGE_ZHengHeHeiSen: "整合黑森"
+ FGE_ZHengHeHeErSiTaiYin: "整合赫尔斯泰因"
+ FGE_GuoYouHuaZiYouJiuTuan: "招募自由军团"
+ FGE_ZHaoMuMinBing: "招募民兵"
+ 
+ FER_Kozak: "哥萨克的威胁"
+ FER_AnFuGeSaKe: "安抚哥萨克"
+ 
+ bw_YaoQingXinCHengYuan: "邀请新成员"
+ 
+ 
+ debug: "调试模式"
+ KaiQiYvLeMoSHi: "开启娱乐模式"
+ DaYingDeGuoNeiZHan: "打赢德国内战"
+ YinDuNeiZHan: "印度内战"
+ 
+ YvLeMoSHi: "娱乐模式"
+ GuanBiYvLeMoSHi: "关闭娱乐模式"
+ MeiZHouDaBaoZHa: "美洲大爆炸"
+ FaGuoDaBaoZHa: "髪国大爆炸"
+ WoYaoCHengWeiCiXi: "我要成为慈禧，我要成为慈禧"
+ 
+ QunXing_QiDong: "群星，启动！"
+ SHiZHeJunSi: "逝者军势"
+ 
+ # # #德国1935年选举
+ 
+ FGE_german_presidential_election_of_1935: "1935年总统选举"
+ FGE_XvanJvQiXian: "选举期限"
+ 
+ FGE_Hitler_ZaiXingDong: "希特勒在行动"
+ FGE_ZaiBeiBuXvanCHuan: "在北部宣传"
+ FGE_ZaiNanBuXvanCHuan: "在南部宣传"
+ 
+ #危机
+ 
+ FGE_AUS_FRA_AoDiLiWeiJi_tt: "激活危机：§Y奥地利危机§!"
+ FGE_AUS_FRA_AoDiLiWeiJi: "奥地利危机"
+ FGE_AUS_FRA_AoDiLiWeiJi_WeiJiDaoJiSHi: "危机倒计时"
+ FGE_AUS_FRA_WeiJiDaoJiSHi_desc: "在§Y$FGE$§!对§Y$AUS$§!开战后§Y小协约国§!方面就与§Y$FGE$§!展开谈判，而在一段时间后§Y$FRA$§!就会表态......"
+ ZHiCHiAoDiLi_tt: "将§Y支持奥地利§!"
+ FangQiZHiCHiAoDiLi_tt: "将§Y放弃奥地利§!"
+ MinZHongZHiCHiAoDiLi_tt: "民众支持：\n - 民众倾向于支持奥地利[?FRA_ZHiCHiAoDiLi|Y%%0]\n - 民众倾向于放弃奥地利[?var_FRA_FangQiZHiCHiAoDiLi|Y%%0]"
+ FRA_ZHiCHiAoDiLi: "支持奥地利"
+ FRA_FangQiZHiCHiAoDiLi: "放弃支持奥地利"
+ FGE_SHanDongSuiJingQingXv: "煽动绥靖情绪"
+ FGE_SHanDongSuiJingQingXv_tt: "法国民众将趋向于放弃奥地利"
+ 
+ FGE_ENG_FRA_RiNeiWaHeiYi_tt: "激活危机：§日内瓦会议§!"
+ FGE_ENG_FRA_RiNeiWaHeiYi: "日内瓦会议"
+ FGE_ENG_FRA_RiNeiWaHeiYi_WeiJiDaoJiSHi: "危机倒计时"
+ FGE_ENG_FRA_RiNeiWaHeiYi_WeiJiDaoJiSHi_desc: "§Y$FGE$§!和§Y$ENG$§!§Y$FRA$§!在日内瓦对法尔赛条约展开谈判"
+ 
+ #国策
+ 
+ # # #GER
+ 
+ GER_the_aging_link: "垂垂老矣的纽带"
+ 
+ GER_marshal_s_office: "元帅的办公室"
+ 
+ GER_iron_cross_shackles: "铁十字的枷锁"
+ 
+ GER_benefit_exchange: "利益交换"
+ 
+ GER_secret_conscription: "秘密扩军"
+ 
+ GER_land_exchange_support: "土地交换支持"
+ 
+ GER_hindenburg_s_letter: "兴登堡的手谕"
+ 
+ GER_end_of_an_era: "一个时代的终结"
+ 
+ GER_may_god_bless_the_german_motherland: "上帝保佑德意志祖国"
+ 
+ GER_reichstagsbrand: "国会纵火案"
+ 
+ GER_establish_investigation_team: "成立调查组"
+ 
+ GER_goring_s_conspiracy: "戈林的阴谋"
+ 
+ GER_remove_hitler_from_position: "罢免希特勒"
+ 
+ GER_excessive_things: "欺人太甚"
+ 
+ GER_arresting_leftists: "逮捕左派"
+ 
+ GER_ermachtigungsgesetz: "授权法案"
+ 
+ #部队
+ 
+ WangLinJunTuan: "亡灵军团"
+ 
+ QianHaoBuBing: "堑壕步兵"
+ 
+ SanBing: "散兵"
+ 
+ #变量
+ 
+ add_MaKeSi_LieNingZHuYi_to_SiDaLingZHuYi_tt: "全部的§Y马克思 - 列宁主义§!支持率将转移至§Y斯大林主义§!"
+ 
+ add_MaKeSi_LieNingZHuYi_to_TuoLuoSiJiZHuYi_tt: "全部的§Y马克思 - 列宁主义§!支持率将转移至§Y托洛斯基主义§!"
+ 
+ #加载
+ 
+ LOADING_GUI: "攀登圣母峰"
+ LOADING_HISTORY: "建立南极定居点"
+ LOADING_SAVEGAME: "火烧国会"
+ LOADING_SAVEGAME_NO_NAME: "建立摄政统治"
+ LOADING_DATABASES: "处决希姆莱"
+ LOADING_MAP_SPRITES: "号召国际纵队"
+ LOAD_GFX_PDXMAP_SHADERS: "建立第四国际"
+ LOAD_GFX_PDXMAP_TERRAIN: "发动圣战"
+ LOAD_GFX_PDXMAP_BORDERS: "迫害犹太人"
+ LOAD_GFX_PDXMAP_TEXTURES: "在亚马逊打游击"
+ LOAD_GFX_PDXMAP_TREES: "发动内战"
+ LOAD_GFX_PDXMAP_RIVERS: "废除奴隶制"
+ LOAD_GFX_PDXMAP_STATIC_OBJECTS: "与保皇党合作"
+ LOAD_EVENTS: "建立德美同盟"
+ LOAD_GFX: "发动革命"
+ LOADING_MAIN_MENU: "V大鸣帝国使者114514元"
+ PRECALC_NAVAL_DIST: "柏林核爆"
+ EXITING_TO_FRONTEND: "签署加莱协定"
+ LOAD_INIT: "改进法尔赛条约"
+ LOAD_FLAGS: "流亡海外"
+ PROC_FLAGS: "建立企业帝国"
+ INIT_MAP_LOGIC: "吊死资本家"
+ INIT_GAMESTATE: "升起旗帜"
+ EXECUTE_HISTORY: "赤化全球"
+ CREATING_CHKSUM: "寻找地下国度"
+ GENERATING_GRADIENT_BORDERS: "探索沙姆巴拉"
+ 
+ #傀儡国
+ 
+ MingYiSHangSHuYv: "名义上属于"
+ BaoHuGuo: "保护国"
+ WeiXingGuo: "卫星国"
+ KuiLeiGuo: "傀儡国"
+ BanTunBingKuiLeiGuo: "半吞并傀儡国"
+ ZiZHiQv: "自治区"
+ ZHou: "州"
+ ZongDuXiaQv: "总督辖区"
+ JunQv: "军区"
+ FengCHen: "封臣"
+ 
+ #自定义游戏规则
+ 
+ MoRen: "默认"
+ MoRen_desc: "不做如何改变"
+ 
+ MeiZHoZHuangTai: "美洲状态"
+ MeiZHoQvDiGuoHua: "美洲去帝国化"
+ MeiZHoQvDiGuoHua_desc: "美国将不在拥有整个美洲"
+ MeiZHoQvZHiMinHua: "美洲去殖民化"
+ MeiZHoQvZHiMinHua_desc: "印第安人将重新掌控美洲"
+ 
+ BuLieDianZHuangTai: "不列颠状态"
+ BuLieDianJieTi: "不列颠解体"
+ BuLieDianJieTi_desc: "苏格兰和威尔士将独立"
+ BuLieDianTongYi: "不列颠统一"
+ BuLieDianTongYi_desc: "不列颠将吞并爱尔兰"
+ 
+ #超事件
+ 
+ # # #德国
+ 
+ load_bw_FGE.1_t: "纳粹党赢得德国内战"
+ load_bw_FGE.1_d: "一个国家，一个民族，一个元首\n——纳粹德国宣传海报"
+ load_bw_FGE.1_a: "满目疮痍"
+ 
+ # # #南非
+ 
+ load_bw_SAF.1_t: "南非内战"
+ load_bw_SAF.1_d: "受压迫的民族只要下定决心赢得自由，\n世上便没有力量得以阻挡。\n——纳尔逊·罗利拉拉·曼德拉"
+ load_bw_SAF.1_a: "大英帝国的明珠熄灭了"
+ 
+ #好感修正
+ 
+ bw_HeJieZHengCe_opinion_modifiers: "和解政策"
+ 
+ #阵营
+ 
+ bw_ENG_DaYingDiGuo: "大英帝国"
+ 
+ bw_HYD_TuBangLianMeng: "土邦联盟"
+ 
+ bw_FGE_DaLuXieDin: "大陆协定"
+ 
+ bw_FGE_TongMengGuo: "同盟国"
+ 
+ #战争
+ 
+ bw_FGE_FGE_message: "在德意志命运的斗争中，@FGE §Y全德法西斯临时政府§!以击败 @FGE §Y德意志社会主义苏维埃共和国§!\n\n\n经过持续数年的内战，民族主义和复仇主义席卷了德国。"
+ bw_FGE_FGE_message: "在德意志命运的斗争中，@FGE §Y德意志社会主义苏维埃\n共和国§!以击败 @FGE §全德法西斯临时政府§!\n\n\n纳粹的褐衣暴徒终将失败。"
+ 
+ bw_FGE_GLR_message: "在德意志命运的斗争中，@FGE §Y全德法西斯临时政府§!以击败 @GLR §Y德意志自由主义者起义§!\n\n\自由之梦，付之于去。"
+ 
+ bw_FGE_GLR_message: "在德意志命运的斗争中，@FGE §Y德意志\n社会主义苏维埃共和国§!以击败 @GLR §Y德意志自由主义者起义§!\n\n\自由之梦，付之于去。"
+ 
+ 
+ bw_SSD_FGE_message: "在德意志命运的斗争中，@SSD §Y党卫军全国总部§!以击败 @FGE §Y德意志国§!\n\n\n第二次内战中，党卫军的军鞋踏破了德国的一切，它会不断的流血，直到希姆莱的末日。"
+ bw_FGE_SSD_message: "在德意志命运的斗争中，@FGE §Y德意志国§!以击败 @SSD §Y党卫军全国总部§!\n\n\n忠于元首。"
+ 
+ 
+ bw_HYD_RAJ_message: "在印度命运的斗争中，@HYD@GWA@MAR@JUN@LAS@KOK@MAK@SOK@AUR §Y土邦联盟§!以击败 @RAJ §Y印度共和国§!\n\n\n滚蛋吧！不列颠尼亚！。"
+ bw_HYD_PAK_message: "在印度命运的斗争中，@HYD@GWA@MAR@JUN@LAS@KOK@MAK@SOK@AUR §Y土邦联盟§!以击败 @PAK §Y巴基斯坦伊斯兰共和国§!\n\n\n印度重归分裂......"
+ 
+ bw_PAK_RAJ_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @RAJ §Y印度共和国§!\n\n\n哦，莫卧儿。"
+ bw_RAJ_PAK_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @PAK §Y巴基斯坦伊斯兰共和国§!\n\n\n哦，孔雀。"
+ 
+ bw_RAJ_HYD_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @HYD §Y海得拉巴§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_GWA_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @GWA §Y瓜廖尔§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_MAR_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @MAR §Y马尔瓦尔§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_JUN_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @JUN §Y朱纳格特§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_LAS_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @LAS §Y拉斯贝拉§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_KOK_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @KOK §Y喀拉特§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_MAK_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @MAK §Y马克兰§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_SOK_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @SOK §Y卡兰§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_AUR_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @AUR §Y查谟和克什米尔§!\n\n\n印度离统一更近一步。"
+ 
+ bw_PAK_HYD_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @HYD §Y海得拉巴§!\n\n\n印度离统一更近一步。"
+ bw_PAK_GWA_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @GWA §Y瓜廖尔§!\n\n\n印度离统一更近一步。"
+ bw_PAK_MAR_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @MAR §Y马尔瓦尔§!\n\n\n印度离统一更近一步。"
+ bw_PAK_JUN_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @JUN §Y朱纳格特§!\n\n\n印度离统一更近一步。"
+ bw_PAK_LAS_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @LAS §Y拉斯贝拉§!\n\n\n印度离统一更近一步。"
+ bw_PAK_KOK_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @KOK §Y喀拉特§!\n\n\n印度离统一更近一步。"
+ bw_PAK_MAK_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @MAK §Y马克兰§!\n\n\n印度离统一更近一步。"
+ bw_PAK_SOK_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @SOK §Y卡兰§!\n\n\n印度离统一更近一步。"
+ bw_PAK_AUR_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @AUR §Y查谟和克什米尔§!\n\n\n印度离统一更近一步。"

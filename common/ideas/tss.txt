@@ -1,0 +1,884 @@
+ideas = {
+	country = {
+		tss_weiduyishu = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_speed_factor = 0.1
+				research_speed_factor = 0.1
+			}
+		}
+
+		tss_diaocha = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}
+
+		tss_kexuejiachutao = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				research_speed_factor = -0.5
+			}
+		}
+		tss_FangFanKeLunSiJi = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = RFE
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		tss_FangFanSHaHuang = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = FER
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		tss_HuangSHiWeiDui = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			stability_factor = 0.1
+			training_time_factor = -0.1
+			}
+		}
+		tss_RenMingZongDu = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			stability_factor = 0.1
+			required_garrison_factor = -0.1
+			}
+		}
+		tss_JiHuaBu = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				max_planning_factor = 0.1
+				planning_speed = 0.1
+			}
+		}
+		tss_BeiBingYangJiHua = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				max_planning_factor = 0.1
+				planning_speed = 0.1
+				}
+			targeted_modifier = {
+				tag = FER
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		tss_QiangXingFenLieZHiKu_CZE = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+				conscription = 0.25
+				political_power_factor =-0.1
+				stability_weekly = -0.001
+				}
+			targeted_modifier = {
+				tag = SLO
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.1
+			}
+		}
+		tss_QiangXingFenLieZHiKu_SLO = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+				conscription = 0.25
+				political_power_factor =-0.1
+				stability_weekly = -0.001
+				}
+			targeted_modifier = {
+				tag = CZE
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.1
+			}
+		}
+		tss_LinSHiZHengFu = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_factor =-0.1
+				stability_weekly = -0.001
+				surrender_limit = 1
+				max_surrender_limit_offset = 0.1
+			}
+		}
+		tss_Czechoslovakia_Gun = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_weekly = -0.001
+			}
+		}
+		tss_la_Commune_de_Paris_HuiYi = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				communism_drift = 0.03
+			}
+		}
+		tss_YouYiZHunJunSHi = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				conscription = -0.01
+			}
+		}
+		tss_GSR_FenSuiXiTeLe = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+
+			}
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+
+#		tss_GSR_RongKeGuiZu = {
+#			picture = CZE_divided_nation
+#
+#			allowed = {
+#			}
+#
+#			allowed_civil_war = {
+#			}
+#
+#			modifier = {
+#				consumer_goods_factor = 0.5
+#				global_building_slots_factor = -0.25
+#				production_speed_buildings_factor = -0.5 
+#				production_speed_industrial_complex_factor = -0.25 
+#			}
+#		}
+
+		tss_GSR_XiongDiXiQiang = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+
+			}
+			targeted_modifier = {
+				tag = AUS
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+
+		tss_JiTiZHuYiJingSHen = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				army_org_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_DaBaGuang = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = -0.8
+				industrial_capacity_factory = -0.5
+				production_speed_buildings_factor = -0.8
+				army_org_factor = -0.6
+				MaKeSi_LieNingZHuYi_drift = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_GuoJiGe = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				MaKeSi_LieNingZHuYi_drift = 0.05
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_YvKeXueJiaHeZuo = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				research_speed_factor = 0.2
+				MaKeSi_LieNingZHuYi_drift = -0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_DuiKangCHuanTongPai = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				MaKeSi_LieNingZHuYi_drift = -0.1
+				YuanSHiZHuYi_drift = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_HuanBuHuoDeSHengCHanZiLiao = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.5
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_DuoQvSHengCHanZiLiao = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+
+				stability_factor = -0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_HongJun = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_org_factor = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_JunDuiYouXian = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_org_factor = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+
+				conscription_factor = 0.3
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_BuDuanGeMingLuen = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				war_stability_factor = 0.2
+				war_support_weekly = 0.01
+
+				justify_war_goal_time = -0.3
+				subjects_autonomy_gain = -0.1
+
+				ai_focus_aggressive_factor = 0.25
+				ai_desired_divisions_factor = 0.25
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_JingJiHuZHuWeiYuanHui = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				autonomy_manpower_share = -1
+				cic_to_overlord_factor = 0.5
+				mic_to_overlord_factor = 0.5
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_NngYJiTiHua = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				global_building_slots_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_YiGuoJianCHengSHeHuiZHuYi = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				drift_defence_factor = 0.05
+				SiDaLingZHuYi_drift = 0.1
+				defensive_war_stability_factor = 0.25
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_CHaoGongYeHua = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				global_building_slots = 1
+				global_building_slots_factor = 0.1
+				production_speed_buildings_factor = 0.5 
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_GuongTongMingYun = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_core_defence_factor = 0.2
+				army_core_attack_factor = 0.2
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ZHengZHiWeiYuan = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_org_factor = 0.2
+				army_org_regain = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_GongSHe = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				WuZHengFuGuongCHanZHuYi_drift = 0.1
+				GuongTuanZHuYi_drift = 0.1
+				consumer_goods_factor = -0.15
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_GongRenWeiYuanHui = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+#				line_change_production_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_SHiBingWeiYuanHui = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_org_factor = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				breakthrough_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_ZHiJieMinZHuZHi = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_factor = 0.1
+				political_advisor_cost_factor = -0.25
+
+				WuZHengFuGuongCHanZHuYi_drift = 0.1
+				GuongTuanZHuYi_drift = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_QueBaoMeiGeRenDoYouGongZuo = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.1
+				stability_factor = 0.05
+				
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_FenSuiSiYouZHi = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_FenSuiHuoBi = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_WuZHengFu_WuGuoJie = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				compliance_growth = 1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_WanJvGouHuo = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				army_org_factor = 0.1
+				global_building_slots_factor = 0.1
+				line_change_production_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				industrial_capacity_factory = 0.5
+				weekly_manpower = 100
+				pocket_penalty = -0.1
+				terrain_penalty_reduction = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_WuNianJiHua = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 2
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_FuLiGuoJia = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.05
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_MaKeSiHuSHen = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_org_factor = 0.3
+				army_org_regain = 0.3
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_LeTu = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.1
+
+				industrial_capacity_dockyard = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		tss_GangTieHuongLiu = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+
+			}
+			targeted_modifier = {
+
+			}
+			equipment_bonus = {
+				armor = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+		SOV_soviet_hegemony_idea = {
+
+			picture = SOV_soviet_hegemony
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+
+			}
+			available = {
+
+			}
+
+			modifier = {
+				MaKeSi_LieNingZHuYi_drift = 0.1
+				political_power_factor = 0.1
+				intel_network_gain_factor = 0.15
+				compliance_growth = 0.15
+			}
+		}
+
+	}
+}

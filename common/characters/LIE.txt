@@ -1,0 +1,16 @@
+characters={
+	LIE_Franz_Josef_Hoop={
+		name=LIE_Franz_Josef_Hoop
+		portraits={
+			civilian={
+				large="gfx/leaders/弗朗茨·约瑟夫·霍普.dds"
+			}
+		}
+		country_leader={
+			ideology=BaoSHouZHuYi_c
+			traits={  }
+			expire="1959.10.19.1"
+			id=-1
+		}
+	}
+}

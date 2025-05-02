@@ -1,0 +1,288 @@
+characters={
+FGE_otto_Strasser = {
+		name = FGE_otto_Strasser
+		portraits={
+			civilian={
+				large="gfx/leaders/小斯特拉瑟.dds"
+			}
+		}
+		country_leader={
+			ideology=GuiZuBaoSHouZHuYi_c
+			traits={ dictator }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	FGE_Gregor_Strasser = {
+		name = FGE_Gregor_Strasser
+		portraits={
+			civilian={
+				large="gfx/leaders/Gregor Strasser.dds"
+			}
+		}
+		country_leader={
+			ideology=SiTeLaSeZHuYi_c
+			traits={ dictator }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	FGE_Aldert_Speer={
+		name=FGE_Aldert_Speer
+		portraits={
+			civilian={
+				large="gfx/leaders/施佩尔.dds"
+			}
+		}
+		country_leader={
+			ideology=FaXiSiZHuYi_c
+			traits={ dictator }
+			expire="1981.9.1.1"
+			id=-1
+		}
+	}
+
+	FGE_adolf_hitler={
+		name=FGE_adolf_hitler
+		portraits={
+			civilian={
+				large="gfx/leaders/希特勒.dds"
+			}
+		}
+		country_leader={
+			ideology=MinZuSHeHuiZHuYi_c
+			traits={
+				dictator
+				great_war_hero
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal = {
+			traits = {politically_connected war_hero trickster inspirational_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	FGE_Heinrich_Himmler={
+		name=FGE_Heinrich_Himmler
+		portraits={
+			civilian={
+				large="gfx/leaders/希姆莱.dds"
+			}
+		}
+		country_leader={
+			ideology=BoGenDiTiZHi_c
+			traits={ dictator }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal = {
+			traits = { politically_connected media_personality }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+	FGE_Reinhard_Heydrich={
+		name=FGE_Reinhard_Heydrich
+		portraits={
+			army={
+				small="gfx/interface/ideas/莱因哈德·海德里希.dds"
+			}
+			civilian = {
+				large=GFX_portrait_FGE_heinrich_himmler
+			}
+		}
+		advisor={
+			slot = political_advisor
+#			idea_token = heinrich_himmler
+			allowed = {
+				original_tag = FGE
+			}
+			available = {
+#				AND = {
+#					has_completed_focus = FGE_HaiDelLxi
+					OR = {
+						has_government = SHeHuiFaXiSi 
+						has_government = SiTeLaSeZHuYi 
+						has_government = FaXiSiZHuYi 
+						has_government = MinZuSHeHuiZHuYi 
+						has_government = BoGenDiTiZHi 
+#						has_country_flag = FGE_reinstated_nazi_leadership 
+					}
+#				}
+			}
+#			on_add = {
+#				custom_effect_tooltip = FGE_SS_himmler_recruit
+#			}
+			traits = {
+				prince_of_terror 
+				silent_workhorse 
+			}
+		}
+	}
+
+	FGE_Paul_Joseph_Goebbels={
+		name=FGE_Paul_Joseph_Goebbels
+		portraits={
+			army={
+				small="gfx/interface/ideas/小黄.png"
+				large="gfx/leaders/小黄.dds"
+			}
+		}
+		country_leader={
+			ideology=SHeHuiFaXiSi_c
+			expire="1945.5.1.1"
+			id=-1
+		}
+
+		advisor={
+			slot = political_advisor
+			idea_token = joseph_goebbels
+			allowed = {
+				original_tag = FGE
+			}
+			available = {
+				OR = {
+					has_government = SHeHuiFaXiSi 
+					has_government = SiTeLaSeZHuYi 
+					has_government = FaXiSiZHuYi 
+					has_government = MinZuSHeHuiZHuYi 
+					has_government = BoGenDiTiZHi 
+				}
+			}
+			traits = {
+				fascist_demagogue
+				propaganda_expert 
+			}
+#			do_effect = {
+#				NOT = {
+#					has_government = fascism 
+#				}
+#			}
+			ai_will_do = {
+				factor = 24.000
+			}
+		}
+	}
+
+	FGE_Hermann_Fegelein={
+		name=FGE_Hermann_Fegelein
+		portraits={
+			civilian={
+				large="gfx/leaders/飞过来.dds"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected cavalry_leader cavalry_expert }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	FGE_Felix_Steiner={
+		name=FGE_Felix_Steiner
+		portraits={
+			civilian={
+				large="gfx/leaders/史坦纳.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious defensive_doctrine }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	FGE_Ernst_Rohm={
+		name=FGE_Ernst_Rohm
+		portraits={
+			civilian={
+				large="gfx/leaders/恩斯特·罗姆.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_reckless militias_officer reassigned  organisational_leader infantry_leader infantry_expert }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	FGE_Hermann_Goring={
+		name=FGE_Hermann_Goring
+		portraits={
+			army={
+				small="gfx/interface/ideas/迈耶.png"
+			}
+		}
+		advisor={
+			slot = economy_chief 
+			idea_token = Hermann_Goring
+			allowed = {
+				original_tag = FGE
+				has_completed_focus = FGE_XinRenGeLin
+			}
+			available = {
+				OR = {
+					has_government = SHeHuiFaXiSi 
+					has_government = SiTeLaSeZHuYi 
+					has_government = FaXiSiZHuYi 
+					has_government = MinZuSHeHuiZHuYi 
+					has_government = BoGenDiTiZHi 
+				}
+			}
+			traits = {
+				ZHanZHengJingJiXueJia
+			}
+		}
+	}
+
+	FGE_Hjalmar_Schacht={
+		name=FGE_Hjalmar_Schacht
+		portraits={
+			army={
+				small="gfx/interface/ideas/沙赫特.png"
+			}
+		}
+		advisor={
+			slot = economy_chief 
+			idea_token = Hjalmar_Schacht
+			allowed = {
+				original_tag = FGE
+				has_completed_focus = FGE_SHiFangSHaHeTe
+			}
+			available = {
+				OR = {
+					has_government = SHeHuiFaXiSi 
+					has_government = SiTeLaSeZHuYi 
+					has_government = FaXiSiZHuYi 
+					has_government = MinZuSHeHuiZHuYi 
+					has_government = BoGenDiTiZHi 
+				}
+			}
+			traits = {
+				JingJiWuSHi
+			}
+		}
+	}
+
+}

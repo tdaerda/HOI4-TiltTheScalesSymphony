@@ -1,0 +1,32 @@
+characters={
+	FRA_Albert_Francois_Lebrun = {
+		name = FRA_Albert_Francois_Lebrun
+		portraits={
+			civilian={
+				large="gfx/leaders/阿尔贝·勒布伦.dds"
+			}
+		}
+		country_leader={
+			ideology=BaoSHouZHuYi_c
+			traits={  }
+			expire="1950.3.6.1"
+			id=-1
+		}
+	}
+
+	FRA_Andre_Leon_Blum = {
+		name = FRA_Andre_Leon_Blum
+		portraits={
+			civilian={
+				large="gfx/leaders/莱昂·布鲁姆.dds"
+			}
+		}
+		country_leader={
+			ideology=SHeHuiMinZHuZHuYi_c
+			traits={  }
+			expire="1950.3.30.1"
+			id=-1
+		}
+	}
+
+}

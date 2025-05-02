@@ -1,0 +1,179 @@
+﻿capital = 52
+set_oob = " "
+
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+
+# starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	#motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	#synth_oil_experiments = 1
+	#fuel_silos = 1
+	#fuel_refining = 1
+
+	armored_car1 = 1
+	interwar_artillery = 1
+
+	gwtank_chassis = 1
+}
+
+set_variable = { var = ger_gateway_to_europe_influence value = 0 }
+
+set_variable = { var = wehrmacht_anger value = 0 }
+set_variable = { var = ss_anger value = 0 }
+set_variable = { FGE_narvik_shipments = 0 }
+set_variable = { FGE_narvik_civs = 0 }
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.75 
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = MinZuSHeHuiZHuYi
+	last_election = "1935.3.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	MinZuSHeHuiZHuYi = 54.68 #57.84
+	BoGenDiTiZHi = 26.96
+	SiTeLaSeZHuYi = 4.27
+	SHeHuiFaXiSi = 10.93
+	GuiZuBaoSHouZHuYi = 3.16
+}
+
+
+add_ideas = {
+#	sour_loser
+#	general_staff
+	partial_economic_mobilisation
+#	SWE_historical_trade_with_Germany_dummy CUT
+	tss_LinSHiZHengFu
+	tss_FGE_FeiFaGuoJia
+
+	dictatorship_distribution_of_power
+	no_election_suffrager
+	no_police_police
+	professional_army_army
+	bandit_economy_economy
+	unsystematic_taxation_tax
+
+	no_strike_strike
+	ban_trade_unions_union
+	Unlimited_working_hours
+	nominal_minimum_wage_minimum_wage
+	symbolic_relief_dole
+
+	limited_exports
+	limited_conscription
+}
+#add_ideas = FGE_mefo_bills_1
+
+#give_guarantee = ALB
+
+1936.1.1 = {
+	declare_war_on = {
+		target = GER
+		type = civil_war
+	}
+	add_ideas = {
+		tss_FGE_RiNeiWaTiaoYue
+	}
+	remove_ideas = tss_FGE_FeiFaGuoJia
+
+	unlock_national_focus = FGE_FaXiSiZHiJian #法西斯之剑
+	unlock_national_focus = FGE_DongYuanCHongFengDui #动员冲锋队
+	unlock_national_focus = FGE_DongYuanDangWeiJun #动员党卫军
+	unlock_national_focus = FGE_TuanJieYiZHi #团结一致
+	unlock_national_focus = FGE_ZHaoMuMinBing #招募民兵
+#	unlock_national_focus = FGE_ZiYouJiuTuan #自由军团
+	unlock_national_focus = FGE_ZHengHeZHanLingQv #整合占领区
+	unlock_national_focus = FGE_WeiXiXingDong #威悉行动
+	unlock_national_focus = FGE_JianLinSHiWaiJiaoBuJiXvanCHuanBu #建立临时外交部及宣传部
+	unlock_national_focus = FGE_YvYingFaTanPan #与英法谈判
+	unlock_national_focus = 签署日内瓦条约
+	unlock_national_focus = 以萨尔换取支援
+
+	add_stability = 0.1
+	add_war_support = 0.1
+	load_oob = "FGE_MinBing"
+
+	set_oob = "FGE_tss"
+
+	if = {
+		limit = {
+			has_dlc = "No Step Back"
+		}
+		create_equipment_variant = {
+			name = "条顿"
+			type = medium_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot=tank_close_support_gun
+				engine_type_slot=tank_gasoline_engine
+				special_type_slot_1=secondary_turret_hmg
+				turret_type_slot=tank_medium_two_man_tank_turret
+				suspension_type_slot=tank_bogie_suspension
+				armor_type_slot=tank_riveted_armor
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 0
+				tank_nsb_armor_upgrade = 0
+			}
+			icon = "GFX_FGE_basic_medium_tank_medium"
+		}
+
+		create_equipment_variant = {
+			name = "改装拖拉机"
+			type = light_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot=tank_heavy_machine_gun
+				engine_type_slot=tank_gasoline_engine
+				turret_type_slot=tank_light_one_man_tank_turret
+				suspension_type_slot=tank_bogie_suspension
+				armor_type_slot=tank_riveted_armor
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 0
+				tank_nsb_armor_upgrade = 0
+			}
+			icon = "GFX_FGE_basic_medium_tank_medium"
+		}
+	}
+	set_variable = { FGE_ENG_FRA_RiNeiWaHeiYi = 100 }
+}
+
+
+set_cosmetic_tag = FGE_LinSHiZHengFu
+
+#领导人
+recruit_character = FGE_Gregor_Strasser
+recruit_character = FGE_otto_Strasser
+recruit_character = FGE_Aldert_Speer
+recruit_character = FGE_adolf_hitler
+recruit_character = FGE_Heinrich_Himmler
+#顾问
+recruit_character = FGE_Reinhard_Heydrich
+recruit_character = FGE_Paul_Joseph_Goebbels
+recruit_character = FGE_Hermann_Goring
+recruit_character = FGE_Hjalmar_Schacht
+#将领
+recruit_character = FGE_Hermann_Fegelein
+recruit_character = FGE_Felix_Steiner
+recruit_character = FGE_Ernst_Rohm

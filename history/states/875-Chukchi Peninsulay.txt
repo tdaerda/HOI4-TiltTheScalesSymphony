@@ -1,0 +1,24 @@
+state = {
+	id = 875
+	name = "STATE_875" #Chukchi Peninsula
+
+	history = {
+		owner = AUR
+		victory_points = {
+			5042 1 
+		}
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = AUR
+	}
+
+	provinces = {
+		5042 
+	}
+	manpower = 24000
+	buildings_max_level_factor = 1
+	state_category = "pastoral"
+
+	local_supplies = 0.0 
+}
