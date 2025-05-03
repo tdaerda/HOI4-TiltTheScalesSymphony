@@ -3575,6 +3575,42 @@ spriteTypes = {
 		name = "GFX_GER_the_aging_link"
 		texturefile = "gfx/interface/goals/GER/GER_the_aging_link(2).dds"
 	}
+	SpriteType = {
+		name = "GFX_GER_marshal_s_office"
+		texturefile = "gfx/interface/goals/GER/GER_marshal_s_office.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_iron_cross_shackles"
+		texturefile = "gfx/interface/goals/GER/GER_iron_cross_shackles.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_benefit_exchange"
+		texturefile = "gfx/interface/goals/GER/GER_benefit_exchange.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_secret_conscription"
+		texturefile = "gfx/interface/goals/GER/GER_secret_conscription.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_land_exchange_support"
+		texturefile = "gfx/interface/goals/GER/GER_land_exchange_support.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_hindenburg_s_letter"
+		texturefile = "gfx/interface/goals/GER/GER_hindenburg_s_letter.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_end_of_an_era"
+		texturefile = "gfx/interface/goals/GER/GER_end_of_an_era.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_may_god_bless_the_german_motherland"
+		texturefile = "gfx/interface/goals/GER/GER_may_god_bless_the_german_motherland.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_reichstagsbrand"
+		texturefile = "gfx/interface/goals/GER/GER_reichstagsbrand.dds"
+	}
 	# # #国民精神
 	# # # # # #黑德
 	SpriteType = {

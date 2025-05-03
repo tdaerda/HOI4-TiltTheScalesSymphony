@@ -23,7 +23,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_marshal_s_office #元帅的办公室
-		icon = GFX_goal_unknown
+		icon = GFX_GER_marshal_s_office
 		cost = 5
 		prerequisite = {
 			focus = GER_the_aging_link #垂垂老矣的纽带
@@ -34,7 +34,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_iron_cross_shackles #铁十字的枷锁
-		icon = GFX_goal_unknown
+		icon = GFX_GER_iron_cross_shackles
 		cost = 5
 		prerequisite = {
 			focus = GER_the_aging_link #垂垂老矣的纽带
@@ -45,7 +45,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_benefit_exchange #利益交换
-		icon = GFX_goal_unknown
+		icon = GFX_GER_benefit_exchange
 		cost = 5
 		prerequisite = {
 			focus = GER_marshal_s_office #元帅的办公室
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_secret_conscription #秘密扩军
-		icon = GFX_goal_unknown
+		icon = GFX_GER_secret_conscription
 		cost = 5
 		prerequisite = {
 			focus = GER_benefit_exchange #利益交换
@@ -81,7 +81,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_hindenburg_s_letter #兴登堡的手谕
-		icon = GFX_goal_unknown
+		icon = GFX_GER_hindenburg_s_letter
 		cost = 5
 		prerequisite = {
 			focus = GER_secret_conscription #秘密扩军
@@ -95,7 +95,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_end_of_an_era #一个时代的终结
-		icon = GFX_goal_unknown
+		icon = GFX_GER_end_of_an_era
 		cost = 5
 		x = 10
 		y = 1
@@ -103,7 +103,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_may_god_bless_the_german_motherland #上帝保佑德意志祖国
-		icon = GFX_goal_unknown
+		icon = GFX_GER_may_god_bless_the_german_motherland
 		cost = 5
 		prerequisite = {
 			focus = GER_end_of_an_era #一个时代的终结
@@ -117,7 +117,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_reichstagsbrand #国会纵火案
-		icon = GFX_goal_unknown
+		icon = GFX_GER_reichstagsbrand
 		cost = 5
 		x = 15
 		y = 1

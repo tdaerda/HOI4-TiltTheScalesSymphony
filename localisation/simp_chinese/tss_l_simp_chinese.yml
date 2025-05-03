@@ -1510,22 +1510,31 @@
  # # #GER
  
  GER_the_aging_link: "垂垂老矣的纽带"
+ GER_the_aging_link_desc: "德国的裂隙如腐坏的伤口，左右矛盾撕裂了这个伤口，全凭兴登堡的铁腕强压。但垂暮的老人如何长久支撑？他若逝去，内战阴云将倾轧而下，国家的裂痕或将化为深渊，吞噬最后的稳定。"
  
  GER_marshal_s_office: "元帅的办公室"
+ GER_marshal_s_office_desc: "兴登堡，往昔的军人领袖，与军队的联系深植血脉。他缔结的军事同盟，似是为末日埋下的保险。当他离去，黑暗降临，军队或许是德国摇摇欲坠时最后的倚靠，即便这倚靠已被时光侵蚀，布满裂痕。"
  
  GER_iron_cross_shackles: "铁十字的枷锁"
+ GER_iron_cross_shackles_desc: "容克贵族，掌控德国经济的大手。若获其支持，兴登堡身后的乱局中，他们对经济的把控或成稳定的砝码。但这砝码，带着旧时代的锈迹与枷锁，能否托起未来？"
  
  GER_benefit_exchange: "利益交换"
+ GER_benefit_exchange_desc: "与军队、贵族的交易，是危机中的共谋。以利益为脆弱纽带，换取他们的支撑。这纽带随时可能断裂，却也是当下在深渊边缘挣扎的唯一凭借。"
  
  GER_secret_conscription: "秘密扩军"
+ GER_secret_conscription_desc: "军队，从往昔荣耀到苦涩失败，他们唯有不甘。秘密扩军，似对往昔荣耀的虚妄追逐，却能换来他们的支持。在这即将崩塌的大厦里，增添一丝虚幻的力量。"
  
  GER_land_exchange_support: "土地交换支持"
+ GER_land_exchange_support_desc: "土地，贵族的渴望。以土地为饵，换取他们的助力。这份交易不知是将德国拽出深渊，还是拖入更深的沉沦。"
  
  GER_hindenburg_s_letter: "兴登堡的手谕"
+ GER_hindenburg_s_letter_desc: "兴登堡的手谕，是最后的护身符。紧急时刻，军队将走上前台，掌控政府。德国的命运将彻底交付于铁血与纪律之手，无论代价是救赎还是毁灭。"
  
  GER_end_of_an_era: "一个时代的终结"
+ GER_end_of_an_era_desc: "兴登堡，最后的支柱轰然倒塌。命运的重锤，德国陷入群龙无首的混乱。一个时代终结，黑暗笼罩，在未来中失去方向，等待未知的裁决。"
  
  GER_may_god_bless_the_german_motherland: "上帝保佑德意志祖国"
+ GER_may_god_bless_the_german_motherland_desc: "在混乱深渊的边缘，唯有向上帝祈祷。主啊，保佑德意志挺过这危机！尽管这祈祷在历史的狂风中如此渺小，却是此刻唯一的微光，照亮未知的前路。"
  
  GER_reichstagsbrand: "国会纵火案"
  
