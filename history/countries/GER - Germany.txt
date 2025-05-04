@@ -31,6 +31,8 @@ set_politics = {
 	ruling_party = JiaZHangZHi
 }
 
+set_variable = { var = GER_Hindenburg_s_health value = 100 }
+
 #set_popularities = {
 #	MaKeSi_LieNingZHuYi = 53.03 #48.22 #2=53.39
 #	SHeHuiMinZHuZHuYi = 27.53

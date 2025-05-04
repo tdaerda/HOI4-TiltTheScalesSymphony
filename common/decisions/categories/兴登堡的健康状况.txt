@@ -1,0 +1,12 @@
+GER_Hindenburg_s_health = {
+#决议组id
+	icon = ger_mefo_bills
+#图片
+	priority = 100
+#位置，越大越上，越小越下
+	custom_cost_text = GER_Hindenburg_s_health_tt
+
+	visible = {
+#展示条件
+	}
+}
