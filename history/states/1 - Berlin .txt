@@ -1,0 +1,26 @@
+state={
+	id=1
+	name="STATE_1"
+	provinces={
+		6521 
+	}
+
+	state_category = megalopolis
+
+	history={
+		owner = GER
+		victory_points = { 6521 50 }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 5
+			industrial_complex = 4
+			anti_air_building = 2
+			air_base = 6
+
+		}
+		add_core_of = GER
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
